@@ -5,6 +5,12 @@ description: Concentrates marketing and sales effort on a named set of accounts 
 
 # Account-based marketing
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Il contatto B2B in UE richiede base giuridica GDPR e regole ePrivacy, non CAN-SPAM.
+> Per gli obblighi usa invece: Reg. UE 2016/679 art. 6.1.f; D.Lgs. 196/2003 art. 130; Registro pubblico delle opposizioni (D.P.R. 26/2022).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Account-based marketing inverts the usual model: instead of generating leads and finding out which
 accounts they came from, you choose the accounts and work them. It is a good fit for a narrow set
 of businesses and an expensive mistake for the rest.

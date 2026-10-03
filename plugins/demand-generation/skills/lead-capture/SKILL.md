@@ -5,6 +5,12 @@ description: Converts anonymous traffic into known contacts — lead magnets, ga
 
 # Lead capture
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Form, popup e consensi: CAN-SPAM/TCPA/CASL non valgono, servono GDPR e art. 130 Codice privacy.
+> Per gli obblighi usa invece: Reg. UE 2016/679 artt. 6-7; D.Lgs. 196/2003 art. 130; linee guida EDPB 05/2020 sul consenso.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## What gating costs
 
 Every gate trades reach for contacts. That trade is worth making only when the contact is genuinely

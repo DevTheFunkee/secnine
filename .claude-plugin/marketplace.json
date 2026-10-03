@@ -1,20 +1,22 @@
 {
-  "name": "headcount",
+  "name": "secnine",
   "owner": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
   "metadata": {
-    "description": "An agent organization structured as a C-suite hierarchy. Each department installs independently so only the relevant function loads.",
-    "version": "1.0.0"
+    "description": "SecNine: un'organizzazione di agenti strutturata come un'azienda, localizzata per Italia e UE. Ogni dipartimento si installa da solo. Basato su headcount di Chris Brock (MIT).",
+    "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "executive",
       "source": "./plugins/executive",
-      "description": "Direction, capital and attention allocation, cross-functional arbitration, strategy validation, and the method for structuring the organization itself.",
-      "version": "1.0.0",
+      "description": "Direzione: allocazione di capitale e attenzione, arbitrato tra funzioni, validazione della strategia e metodo per strutturare l'organizzazione stessa.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "strategy",
@@ -26,10 +28,11 @@
     {
       "name": "technology",
       "source": "./plugins/technology",
-      "description": "Architecture, engineering delivery, development discipline, debugging, review, and AI and automation systems.",
-      "version": "1.0.0",
+      "description": "Architettura, delivery del software, disciplina di sviluppo, debugging, code review e sistemi di IA e automazione.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "engineering",
@@ -43,10 +46,11 @@
     {
       "name": "it-operations",
       "source": "./plugins/it-operations",
-      "description": "Corporate IT: service desk, systems and network administration, virtualization and cloud, telephony and conferencing, endpoints, assets, identity lifecycle, and backup and recovery.",
-      "version": "1.0.0",
+      "description": "IT aziendale: service desk, sistemi e rete, virtualizzazione e cloud, telefonia, endpoint, asset, ciclo di vita delle identità, backup e ripristino.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "it-operations",
@@ -62,10 +66,11 @@
     {
       "name": "product",
       "source": "./plugins/product",
-      "description": "Product strategy, UX and usability audit, design systems, interface craft, brand expression, and visual direction.",
-      "version": "1.0.0",
+      "description": "Strategia di prodotto, audit UX e usabilità, design system, cura dell'interfaccia, identità di marca e direzione visiva.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "product",
@@ -79,10 +84,11 @@
     {
       "name": "marketing",
       "source": "./plugins/marketing",
-      "description": "Positioning, content strategy and production, social and video, brand voice, copywriting, PR, and partnerships.",
-      "version": "1.0.0",
+      "description": "Posizionamento, contenuti, brand voice, campagne, PR, eventi e lanci, con claim e disclosure secondo Codice del consumo, IAP e AGCOM.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "marketing",
@@ -96,10 +102,11 @@
     {
       "name": "demand-generation",
       "source": "./plugins/demand-generation",
-      "description": "Organic and paid acquisition, conversion, measurement, experimentation, lifecycle messaging, and distribution.",
-      "version": "1.0.0",
+      "description": "SEO, ricerca nei motori di IA, landing page, lead capture, advertising e lifecycle, con consensi secondo GDPR e Codice privacy.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "seo",
@@ -114,10 +121,11 @@
     {
       "name": "revenue",
       "source": "./plugins/revenue",
-      "description": "Outbound, sales enablement, revenue operations, pricing and packaging, activation, retention, and referrals.",
-      "version": "1.0.0",
+      "description": "Vendite, pricing, negoziazione, attivazione, retention e revenue operations.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "sales",
@@ -131,10 +139,11 @@
     {
       "name": "finance",
       "source": "./plugins/finance",
-      "description": "Financial modeling, budgeting and forecasting, unit economics, and financial decision support.",
-      "version": "1.0.0",
+      "description": "Modelli finanziari, budget e forecast, unit economics, chiusure e controllo, fatturazione elettronica via SDI.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "finance",
@@ -147,10 +156,11 @@
     {
       "name": "operations",
       "source": "./plugins/operations",
-      "description": "Program management, process design, vendor and supplier management, and operational delivery.",
-      "version": "1.0.0",
+      "description": "Processi, capacità, qualità, fornitori, continuità operativa e luoghi di lavoro.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "operations",
@@ -163,10 +173,11 @@
     {
       "name": "pmo",
       "source": "./plugins/pmo",
-      "description": "Enterprise program management office: portfolio governance, program and project delivery, delivery risk, benefits realization, and adoption.",
-      "version": "1.0.0",
+      "description": "Gestione di progetti, programmi e portafoglio: pianificazione, rischi, dipendenze, stime e benefici.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "pmo",
@@ -179,10 +190,11 @@
     {
       "name": "people",
       "source": "./plugins/people",
-      "description": "Org design, hiring and interviewing, compensation and leveling, and workforce planning.",
-      "version": "1.0.0",
+      "description": "Organizzazione, selezione, onboarding, performance, compensi e relazioni di lavoro nel quadro di CCNL e Statuto dei lavoratori.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "people",
@@ -196,10 +208,11 @@
     {
       "name": "legal-risk",
       "source": "./plugins/legal-risk",
-      "description": "Contract review, privacy and data protection, enterprise risk, compliance, and audit readiness.",
-      "version": "1.0.0",
+      "description": "Privacy e GDPR con le prassi del Garante, NIS2, AI Act, accessibilità, contratti, proprietà intellettuale e rischio d'impresa. Reviewer: i suoi blocchi non sono scavalcabili.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "legal",
@@ -213,10 +226,11 @@
     {
       "name": "security",
       "source": "./plugins/security",
-      "description": "Threat modeling, security architecture review, incident response, vulnerability management, and access and identity. Reviewer-class.",
-      "version": "1.0.0",
+      "description": "Programma di sicurezza, threat modeling, vulnerabilità, identità, detection e risposta agli incidenti con le notifiche a CSIRT Italia e Garante. Reviewer: i suoi blocchi non sono scavalcabili.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "security",
@@ -229,10 +243,11 @@
     {
       "name": "customer-experience",
       "source": "./plugins/customer-experience",
-      "description": "Support operations, escalation management, voice of customer, and self-service. Owns what the customer experiences after the sale.",
-      "version": "1.0.0",
+      "description": "Supporto, customer success, escalation, knowledge base e voce del cliente.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "support",
@@ -246,10 +261,11 @@
     {
       "name": "data-analytics",
       "source": "./plugins/data-analytics",
-      "description": "Data governance, warehouse and semantic modeling, business intelligence, and AI/ML governance.",
-      "version": "1.0.0",
+      "description": "Business intelligence, data engineering e modellazione, governance del dato e dell'IA.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "data",
@@ -264,10 +280,11 @@
     {
       "name": "corporate-strategy",
       "source": "./plugins/corporate-strategy",
-      "description": "Portfolio strategy, corporate development, strategic alliances, and scenario planning.",
-      "version": "1.0.0",
+      "description": "Strategia pluriennale, portafoglio, scenari, ingresso in nuovi mercati, alleanze e M&A.",
+      "version": "0.1.0",
       "author": {
-        "name": "Chris Brock"
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
       },
       "keywords": [
         "strategy",
@@ -277,6 +294,25 @@
         "scenario-planning"
       ],
       "category": "corporate-strategy"
+    },
+    {
+      "name": "pa",
+      "source": "./plugins/pa",
+      "description": "Lavorare con la Pubblica Amministrazione italiana: quando conviene, cosa serve prima di una gara, linee guida AgID, piattaforme abilitanti (SPID, CIE, pagoPA, App IO, PDND) e accessibilità.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Bitlore",
+        "url": "https://bitlore.it"
+      },
+      "keywords": [
+        "pubblica-amministrazione",
+        "agid",
+        "appalti",
+        "spid",
+        "pagopa",
+        "accessibilita"
+      ],
+      "category": "pa"
     }
   ]
 }

@@ -1,11 +1,12 @@
 {
   "name": "marketing",
-  "description": "Positioning, content strategy and production, social and video, brand voice, copywriting, PR, and partnerships.",
-  "version": "1.0.0",
+  "description": "Posizionamento, contenuti, brand voice, campagne, PR, eventi e lanci, con claim e disclosure secondo Codice del consumo, IAP e AGCOM.",
+  "version": "0.1.0",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "keywords": [
     "marketing",
     "content",

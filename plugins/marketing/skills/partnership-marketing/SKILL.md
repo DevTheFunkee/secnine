@@ -5,6 +5,12 @@ description: Builds reach through other people's audiences — co-marketing part
 
 # Partnership marketing
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Influencer e co-marketing: in Italia regole AGCOM e Digital Chart IAP.
+> Per gli obblighi usa invece: Delibera AGCOM 7/24/CONS (influencer); Digital Chart IAP; D.Lgs. 206/2005.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Borrowing an audience is the cheapest reach available and the easiest to do badly.
 
 Affiliates sit next to this rather than inside it: they are a paid channel with commercial terms,

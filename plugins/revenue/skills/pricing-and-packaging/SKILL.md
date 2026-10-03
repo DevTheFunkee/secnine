@@ -5,6 +5,12 @@ description: Sets price, structures packages and tiers, and designs the monetiza
 
 # Pricing and packaging
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Prezzi B2C IVA inclusa, prezzo precedente nelle promozioni e rinnovo automatico seguono regole UE.
+> Per gli obblighi usa invece: D.Lgs. 206/2005 artt. 14-17-bis; Dir. UE 2019/2161 (Omnibus); D.P.R. 633/1972.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 The highest-leverage number in the business and the least examined. Most companies are underpriced
 and have never tested it.
 

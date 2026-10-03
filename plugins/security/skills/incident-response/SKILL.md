@@ -1,81 +1,90 @@
 ---
 name: incident-response
-description: Runs a security incident from detection to closure — triage, containment, investigation, communication, and the review afterward. Use this when a compromise is suspected or confirmed, when preparing an incident response plan or running an exercise, when deciding whether something is an incident, or when a breach may trigger notification obligations.
+description: Gestisce un incidente di sicurezza dalla rilevazione alla chiusura — triage, contenimento, indagine, comunicazione e revisione finale — con le notifiche obbligatorie in Italia e UE (Garante entro 72 ore per i dati personali, CSIRT Italia a 24 e 72 ore per i soggetti NIS, vulnerabilità sfruttate secondo il Cyber Resilience Act). Usala quando si sospetta o si conferma una compromissione, per preparare un piano di risposta o un'esercitazione, per decidere se un evento è un incidente, o quando una violazione può far scattare obblighi di notifica.
 ---
 
-# Incident response
+# Risposta agli incidenti
 
-> Breach notification runs on statutory clocks, measured in hours in several regimes. Involve Legal
-> & Risk and qualified counsel as soon as personal data may be involved — not after the technical
-> work is done.
+> **Revisione normativa:** 2026-10-03 · **Ambito:** Italia e UE · I termini di notifica decorrono
+> da quando sei venuto a conoscenza dell'evento e si misurano in ore: coinvolgi Legal & Risk appena
+> possono esserci dati personali o un obbligo NIS, non a lavoro tecnico finito.
+> Questa skill guida la risposta; le notifiche sono atti giuridici. Limiti d'uso: <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
 
-## Decide it is an incident, and say so
+## Decidi che è un incidente, e dillo
 
-The most expensive delay is the hour spent debating whether this is really an incident. Declare
-early; standing down a declared incident is cheap, and discovering an hour late that it was real is
-not.
+Il ritardo più caro è l'ora passata a discutere se lo sia davvero. Dichiaralo presto: chiudere un
+incidente dichiarato costa poco, scoprire un'ora dopo che era reale no.
 
-Name an **incident commander** immediately. One person, coordinating, not doing the technical work.
-Everyone else has a defined job. Incidents fail on coordination far more than on technical
-capability.
+Nomina subito un **incident commander**: una persona che coordina e non fa il lavoro tecnico.
+Tutti gli altri hanno un compito definito. Gli incidenti falliscono sul coordinamento molto più che
+sulle capacità tecniche.
 
-## Order of operations
+## Ordine delle operazioni
 
-**1. Contain before investigating.** Stop the bleeding: isolate the host, revoke the credential,
-disable the account, block the path. It is tempting to watch the attacker to learn more — do that
-only with a deliberate decision, not by default.
+**1. Contieni prima di indagare.** Isola l'host, revoca la credenziale, disabilita l'account,
+blocca il percorso. Osservare l'attaccante per capirne di più si fa solo per decisione esplicita.
 
-**2. Preserve evidence while containing.** Snapshot before you rebuild. Capture volatile state —
-memory, connections, running processes — before powering anything off. Rebuilding a compromised host
-destroys the only record of how they got in, and you will need it.
+**2. Preserva le evidenze mentre contieni.** Snapshot prima di ricostruire; stato volatile
+(memoria, connessioni, processi) prima di spegnere. Ricostruire un host compromesso distrugge
+l'unica traccia di come sono entrati.
 
-**3. Establish scope.** What was accessed, what was taken, when it started, and whether it is still
-happening. Assume the initial scope is understated; it usually is. Look for persistence and lateral
-movement before declaring containment.
+**3. Definisci il perimetro.** Cosa è stato visto, cosa è stato preso, da quando, se è ancora in
+corso. Il perimetro iniziale è quasi sempre sottostimato: cerca persistenza e movimento laterale
+prima di dichiarare il contenimento.
 
-**4. Eradicate and recover.** Remove the access, close the path, then restore. Rebuild from known
-good rather than cleaning in place — you cannot prove a cleaned host is clean.
+**4. Eradica e ripristina.** Chiudi l'accesso e il percorso, poi ripristina da uno stato noto e
+pulito invece di pulire sul posto. Ruota ogni credenziale raggiungibile, non solo quelle usate.
 
-Rotate every credential the attacker could have reached, not only the ones you know they used.
+**5. Sorveglia dopo il ripristino.** I rientri sono frequenti.
 
-**5. Watch after recovery.** Re-entry is common. Monitor specifically for the path they used and its
-neighbors.
+## Notifiche in Italia e UE
 
-## Communication
+Tieni la cronologia con l'ora in cui l'azienda è venuta a conoscenza dell'evento: è da lì che
+partono tutti i termini.
 
-Keep one timeline as the single source of truth, updated as facts are established, with each entry
-timestamped and attributed. Incidents generate contradictory information at speed, and the timeline
-is what stops the same question being answered three ways.
+| Se… | A chi | Entro |
+|---|---|---|
+| Sono coinvolti dati personali con rischio per le persone | Garante privacy (art. 33 GDPR) | 72 ore |
+| Il rischio per le persone è elevato | Gli interessati (art. 34 GDPR) | Senza ingiustificato ritardo |
+| L'azienda è soggetto NIS e l'incidente è significativo | CSIRT Italia (D.Lgs. 138/2024) | Preallarme 24 ore, notifica 72 ore, relazione finale entro un mese |
+| Una vulnerabilità di un tuo prodotto è sfruttata attivamente | CSIRT designato ed ENISA (Cyber Resilience Act) | Preallarme 24 ore, secondo i termini del regolamento |
+| Sei un'entità finanziaria | Autorità di settore (DORA) | Termini propri di DORA |
 
-Say what is known, what is not yet known, and when the next update comes. Never speculate on cause
-or scope externally before it is established — a retracted statement extends the story and damages
-credibility more than the incident did.
+Sei un fornitore? Il contratto con un cliente soggetto NIS o titolare del trattamento ti obbliga
+quasi sempre ad avvisarlo entro poche ore, perché lui possa rispettare i suoi termini. Quel termine
+contrattuale è il tuo vero orologio. Inquadramento NIS in `legal-risk:nis2-compliance`, privacy in
+`legal-risk:privacy-and-data-protection`.
 
-## Afterward
+## Comunicazione
 
-Blameless review, focused on the system rather than the person. The useful questions: how could this
-have been detected sooner, what made containment slow, what did we not have that we needed, and what
-made this possible in the first place.
+Una sola cronologia come fonte di verità, con ogni voce datata e attribuita. Comunica cosa si sa,
+cosa non si sa ancora e quando arriva il prossimo aggiornamento. Non speculare all'esterno su causa
+o perimetro prima che siano accertati: una smentita allunga la storia e danneggia la credibilità più
+dell'incidente.
 
-Output actions with owners and dates. A review producing no committed changes is theater, and the
-same incident recurs.
+## Dopo
 
-## Preparation
+Revisione senza colpe, centrata sul sistema: come potevamo accorgercene prima, cosa ha rallentato
+il contenimento, cosa ci mancava, cosa l'ha reso possibile. Ne escono azioni con responsabile e
+data; una revisione senza cambiamenti è teatro. Per i soggetti NIS la relazione finale al CSIRT
+riprende questi contenuti.
 
-The plan matters less than having run it. Exercise once a year at minimum: a tabletop against a
-realistic scenario finds the gaps — who has authority out of hours, where the credentials are, who
-calls counsel — at a time when finding them is free.
+## Preparazione
 
-## Sources
+Il piano conta meno di averlo provato. Almeno un'esercitazione all'anno su uno scenario realistico,
+compresa la notifica: chi decide fuori orario, dove sono le credenziali, chi chiama il legale, chi
+compila il modulo del Garante.
 
-`references/sources.md` in this skill lists the outside authorities that settle the questions
-here — what each one is authoritative for, and what you may do with it. Check them before
-answering on anything they cover, and cite what you used. Most are free to read and not free
-to reproduce; the use note on each is binding.
+## Fonti
+
+`references/sources.md` in questa skill elenca le autorità che decidono queste domande, comprese
+alcune fonti statunitensi e internazionali citate per il metodo di gestione (NIST, MITRE) e non per
+gli obblighi. Consultale prima di rispondere e cita quelle usate.
 
 ## Never
 
-- Rebuild or wipe a compromised host before evidence is captured.
-- Let the person running the technical response also own external communication.
-- Close an incident before you can say how entry happened and that the path is shut.
-- Speculate about cause or attribution outside the response channel while the incident is open.
+- Ricostruire o cancellare un host compromesso prima di aver acquisito le evidenze.
+- Far gestire la comunicazione esterna a chi conduce la risposta tecnica.
+- Aspettare di conoscere la causa per avviare le notifiche con termine in ore.
+- Chiudere un incidente prima di sapere come sono entrati e che il percorso è chiuso.
+- Speculare su causa o attribuzione fuori dal canale di risposta mentre l'incidente è aperto.

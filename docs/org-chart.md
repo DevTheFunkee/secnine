@@ -40,16 +40,17 @@ than into the function they oversee.
 | `marketing` | Marketing | CMO | 19 |
 | `demand-generation` | Demand Generation | CMO | 12 |
 | `revenue` | Revenue | CRO | 10 |
-| `finance` | Finance | CFO | 13 |
+| `finance` | Finance | CFO | 14 |
 | `operations` | Operations | COO | 12 |
 | `pmo` | Program Management Office | EPMO / COO | 9 |
 | `customer-experience` | Customer Experience | CCO | 7 |
 | `data-analytics` | Data & Analytics | CDO | 7 |
 | `corporate-strategy` | Corporate Strategy | CSO | 6 |
 | `people` | People | CHRO | 12 |
-| `legal-risk` | Legal & Risk | CLO / CCO | 8 · reviewer-class |
+| `legal-risk` | Legal & Risk | CLO / CCO | 11 · reviewer-class |
+| `pa` | Pubblica Amministrazione | Head of Public Sector | 4 |
 
-16 departments, 172 skills.
+17 departments, 180 skills.
 <!-- END GENERATED: departments -->
 
 ## Remaining gaps

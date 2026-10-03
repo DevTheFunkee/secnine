@@ -5,6 +5,12 @@ description: Plans, packages, and scripts long-form video for retention and chan
 
 # YouTube producer
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Creator sopra soglia sono soggetti alle regole AGCOM per influencer.
+> Per gli obblighi usa invece: Delibera AGCOM 7/24/CONS; D.Lgs. 208/2021 (TUSMA).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Package before you produce
 
 Title and thumbnail decide whether a video is watched at all. Design them first, as a test of the

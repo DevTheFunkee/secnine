@@ -51,7 +51,6 @@ EMIT_SCRIPTS = [
     "validate-skills.py",
     "check-provenance.py",
     "check-skill-refs.py",
-    "check-us-english.py",
     "check-never-blocks.py",
 ]
 
@@ -76,8 +75,6 @@ run "No third-party license text" \\
   python3 scripts/check-provenance.py
 run "Skill references resolve" \\
   python3 scripts/check-skill-refs.py
-run "US English spelling" \\
-  python3 scripts/check-us-english.py
 run "Never blocks are internally consistent" \\
   python3 scripts/check-never-blocks.py
 run "Manifests parse" \\
@@ -307,7 +304,7 @@ def emit(slug, config, out):
                     "name": dept,
                     "description": entry["description"],
                     "version": "1.0.0",
-                    "author": {"name": vertical.get("author", "Chris Brock")},
+                    "author": {"name": vertical.get("author", "Bitlore")},
                     "repository": repo["url"],
                     "keywords": entry.get("keywords", []),
                 }, handle, indent=2)
@@ -346,7 +343,7 @@ def emit(slug, config, out):
             "source": f"./plugins/{e['name']}",
             "description": e["description"],
             "version": "1.0.0",
-            "author": {"name": vertical.get("author", "Chris Brock")},
+            "author": {"name": vertical.get("author", "Bitlore")},
             "keywords": e.get("keywords", []),
             "category": e.get("category", e["name"]),
         }
@@ -498,6 +495,11 @@ def main():
     args = parser.parse_args()
 
     slugs = configured_verticals() if args.all else ([args.slug] if args.slug else [])
+    if args.all and not slugs:
+        # The EU/IT edition dropped the upstream US verticals (D-IT3). Zero configured is a valid
+        # state, not an error: the generator stays so an Italian vertical can be added later.
+        print("verticals: 0 configured, nothing to emit")
+        return 0
     if not slugs:
         die("name a vertical, or pass --all. Configured: " + ", ".join(configured_verticals()))
 

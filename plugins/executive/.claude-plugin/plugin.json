@@ -1,11 +1,12 @@
 {
   "name": "executive",
-  "description": "Direction, capital and attention allocation, cross-functional arbitration, strategy validation, and the method for structuring the organization itself.",
-  "version": "1.0.0",
+  "description": "Direzione: allocazione di capitale e attenzione, arbitrato tra funzioni, validazione della strategia e metodo per strutturare l'organizzazione stessa.",
+  "version": "0.1.0",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "keywords": [
     "strategy",
     "executive",

@@ -5,6 +5,12 @@ description: Reviews and negotiates commercial agreements — MSAs, SOWs, order 
 
 # Contract review
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Clausole e rimedi seguono il codice civile italiano, incluse le clausole vessatorie.
+> Per gli obblighi usa invece: Codice civile artt. 1321-1469, 1341-1342; Reg. UE 2016/679 art. 28 (DPA); D.Lgs. 231/2002 (ritardi di pagamento).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 > Not legal advice. This structures a commercial review and identifies what needs qualified counsel.
 > Jurisdiction-specific questions, litigation, employment, financing, and M&A go to a licensed
 > attorney.

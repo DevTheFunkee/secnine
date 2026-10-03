@@ -1,11 +1,12 @@
 {
   "name": "corporate-strategy",
-  "version": "1.0.0",
-  "description": "Portfolio strategy, corporate development, strategic alliances, and scenario planning.",
+  "version": "0.1.0",
+  "description": "Strategia pluriennale, portafoglio, scenari, ingresso in nuovi mercati, alleanze e M&A.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "strategy",
@@ -19,7 +20,7 @@
     "displayName": "Corporate Strategy",
     "category": "Productivity",
     "shortDescription": "Corporate Strategy, as an installable department",
-    "longDescription": "Portfolio strategy, corporate development, strategic alliances, and scenario planning.",
-    "developerName": "Chris Brock"
+    "longDescription": "Strategia pluriennale, portafoglio, scenari, ingresso in nuovi mercati, alleanze e M&A.",
+    "developerName": "Bitlore"
   }
 }

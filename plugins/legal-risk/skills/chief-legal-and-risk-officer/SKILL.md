@@ -5,6 +5,12 @@ description: Owns legal, contracts, intellectual property, regulatory compliance
 
 # Chief Legal & Risk Officer
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Rimanda a eCFR, US Code e Cornell LII; le fonti primarie diventano Normattiva ed EUR-Lex.
+> Per gli obblighi usa invece: Normattiva (normattiva.it); EUR-Lex; Gazzetta Ufficiale.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Reviewer class
 
 **This department is reviewer-class.** It reviews what other departments commit to, and its findings

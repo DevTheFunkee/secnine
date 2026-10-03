@@ -1,11 +1,12 @@
 {
   "name": "pmo",
-  "version": "1.0.0",
-  "description": "Enterprise program management office: portfolio governance, program and project delivery, dependencies and delivery risk, benefits realization, and adoption.",
+  "version": "0.1.0",
+  "description": "Gestione di progetti, programmi e portafoglio: pianificazione, rischi, dipendenze, stime e benefici.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "pmo",
@@ -19,7 +20,7 @@
     "displayName": "Program Management Office",
     "category": "Productivity",
     "shortDescription": "Program Management Office, as an installable department",
-    "longDescription": "Enterprise program management office: portfolio governance, program and project delivery, dependencies and delivery risk, benefits realization, and adoption.",
-    "developerName": "Chris Brock"
+    "longDescription": "Gestione di progetti, programmi e portafoglio: pianificazione, rischi, dipendenze, stime e benefici.",
+    "developerName": "Bitlore"
   }
 }

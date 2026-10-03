@@ -1,11 +1,12 @@
 {
   "name": "customer-experience",
-  "description": "Support operations, escalation management, voice of customer, and self-service. Owns what the customer experiences after the sale.",
-  "version": "1.0.0",
+  "description": "Supporto, customer success, escalation, knowledge base e voce del cliente.",
+  "version": "0.1.0",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "keywords": [
     "support",
     "customer-success",

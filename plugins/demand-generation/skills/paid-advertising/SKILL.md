@@ -5,6 +5,12 @@ description: Plans, runs, and optimizes paid acquisition across search, social, 
 
 # Paid advertising
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Disclosure e pubblicità ingannevole: FTC sostituita da Codice del consumo, IAP e DSA.
+> Per gli obblighi usa invece: D.Lgs. 206/2005; D.Lgs. 145/2007; Codice di Autodisciplina IAP; Reg. UE 2022/2065 (DSA) art. 26.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Paid is the fastest way to buy a result and the fastest way to buy nothing. The difference is
 mostly discipline before launch.
 

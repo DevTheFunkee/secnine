@@ -5,6 +5,12 @@ description: Establishes ownership, definitions, quality, access, and lineage fo
 
 # Data governance
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Accesso, conservazione e lineage dipendono da GDPR, Data Act e DGA; va tolto il CCPA.
+> Per gli obblighi usa invece: Reg. UE 2016/679; Reg. UE 2023/2854 (Data Act); Reg. UE 2022/868 (DGA); linee guida EDPB.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Governance has a reputation for bureaucracy because it is usually implemented as approval queues.
 Done properly it is the opposite: it makes data usable without asking anyone.
 

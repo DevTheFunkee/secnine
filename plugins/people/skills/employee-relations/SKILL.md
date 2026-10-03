@@ -5,6 +5,12 @@ description: Handles the difficult human situations — grievances, complaints, 
 
 # Employee relations
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Procedure disciplinari e licenziamenti seguono Statuto e normativa italiana, non EEOC/NLRB.
+> Per gli obblighi usa invece: L. 300/1970 art. 7; L. 604/1966; D.Lgs. 23/2015; D.Lgs. 24/2023 whistleblowing.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 These situations are consequential for the person, for the organization's legal exposure, and for
 everyone watching how it is handled. Process is what protects all three.
 

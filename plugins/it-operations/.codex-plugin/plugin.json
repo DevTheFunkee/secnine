@@ -1,11 +1,12 @@
 {
   "name": "it-operations",
-  "version": "1.0.0",
-  "description": "Corporate IT: service desk, systems and network administration, virtualization and cloud, telephony and conferencing, endpoints, assets, identity lifecycle, and backup and recovery.",
+  "version": "0.1.0",
+  "description": "IT aziendale: service desk, sistemi e rete, virtualizzazione e cloud, telefonia, endpoint, asset, ciclo di vita delle identit\u00e0, backup e ripristino.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "it-operations",
@@ -22,7 +23,7 @@
     "displayName": "IT Operations",
     "category": "Productivity",
     "shortDescription": "IT Operations, as an installable department",
-    "longDescription": "Corporate IT: service desk, systems and network administration, virtualization and cloud, telephony and conferencing, endpoints, assets, identity lifecycle, and backup and recovery.",
-    "developerName": "Chris Brock"
+    "longDescription": "IT aziendale: service desk, sistemi e rete, virtualizzazione e cloud, telefonia, endpoint, asset, ciclo di vita delle identit\u00e0, backup e ripristino.",
+    "developerName": "Bitlore"
   }
 }

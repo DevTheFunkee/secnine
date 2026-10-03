@@ -5,6 +5,12 @@ description: Runs voice and meeting infrastructure — phone systems and numbers
 
 # Telephony and conferencing
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Obblighi E911/Kari's Law sono USA; in Italia valgono NUE 112 e regole AGCOM.
+> Per gli obblighi usa invece: D.Lgs. 259/2003 Codice comunicazioni elettroniche; NUE 112; delibere AGCOM.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Voice is the service where failure is most visible and least tolerated. Nobody files a ticket when
 email is slow; everyone notices a dead phone, and customers notice first. It is also the service
 most likely to be nobody's stated job — inherited from a facilities vendor, half-migrated to a

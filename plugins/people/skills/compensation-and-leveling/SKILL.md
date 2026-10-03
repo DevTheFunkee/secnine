@@ -5,6 +5,12 @@ description: Builds and maintains the leveling framework and pay structure — l
 
 # Compensation and leveling
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Bande retributive vincolate da minimi e livelli CCNL, più la direttiva UE sulla trasparenza salariale.
+> Per gli obblighi usa invece: CCNL applicato (archivio CNEL); Dir. UE 2023/970 trasparenza retributiva.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 > Compensation touches employment law, pay transparency requirements, and equal pay obligations that
 > vary by jurisdiction. Structural work here is fine; specific decisions about individuals should be
 > reviewed by qualified counsel or an HR professional.

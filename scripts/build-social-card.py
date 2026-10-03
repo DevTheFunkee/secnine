@@ -107,10 +107,10 @@ TEMPLATE = """<meta charset="utf-8">
 <div class="glow"></div>
 <div class="bar"></div>
 
-<div class="eyebrow">cbrock84 / headcount</div>
-<h1>headcount</h1>
+<div class="eyebrow">Bitlore / SecNine</div>
+<h1>SecNine</h1>
 <div class="tagline">Add a department, not a prompt.</div>
-<div class="chip">/plugin install security<span class="at">@headcount</span></div>
+<div class="chip">/plugin install security<span class="at">@secnine</span></div>
 
 <div class="rule"></div>
 <div class="meta">

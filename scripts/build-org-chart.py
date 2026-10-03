@@ -29,7 +29,7 @@ SHOT_DARK = "docs/assets/org-chart-dark.png"
 # about 86px short of the requested window height and fills the remainder with page ground, so the
 # window has to be that much taller than the content you want — here row two ends at 1081.
 SHOT_W, SHOT_H = 1180, 1170
-REPO = "cbrock84/headcount"
+REPO = "DevTheFunkee/secnine"
 BLOB = f"https://github.com/{REPO}/blob/main"
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -64,6 +64,8 @@ GLYPHS = {
     "people": ("M9 8.4m-3 0a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3.4 20a5.6 5.6 0 0 1 11.2 0"
                "M17 9.4m-2.3 0a2.3 2.3 0 1 0 4.6 0a2.3 2.3 0 1 0-4.6 0M15.6 20a4.6 4.6 0 0 1 5-4.4"),
     "legal-risk": "M12 4.5v14.5M8 19h8M4 7.5h16M4 7.5l-2.4 5h4.8zM20 7.5l-2.4 5h4.8z",
+    # Public administration: a pediment over columns.
+    "pa": "M3.5 9L12 4l8.5 5zM5 20h14M6.5 11v7M10 11v7M14 11v7M17.5 11v7",
 }
 
 
@@ -141,7 +143,7 @@ def collect():
 
 
 TEMPLATE = r"""<meta charset="utf-8">
-<title>headcount org chart</title>
+<title>SecNine org chart</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -437,7 +439,7 @@ TEMPLATE = r"""<meta charset="utf-8">
 </style>
 
 <div class="wrap">
-  <div class="eyebrow">cbrock84 / headcount</div>
+  <div class="eyebrow">Bitlore / SecNine · based on headcount by Chris Brock</div>
   <h1>The org chart</h1>
   <p class="lede">
     An agent organization structured as a company, for Claude Code and for ChatGPT. Every department installs
@@ -459,11 +461,11 @@ TEMPLATE = r"""<meta charset="utf-8">
     <div class="steps">
       <div class="step">
         <b>1 · Add the marketplace</b>
-        <pre><code>/plugin marketplace add cbrock84/headcount</code></pre>
+        <pre><code>/plugin marketplace add DevTheFunkee/secnine</code></pre>
       </div>
       <div class="step">
         <b>2 · Install a department</b>
-        <pre><code>/plugin install security@headcount</code></pre>
+        <pre><code>/plugin install security@secnine</code></pre>
         <p>Every card below carries its own install line — click one to copy it.</p>
       </div>
       <div class="step">
@@ -487,7 +489,7 @@ TEMPLATE = r"""<meta charset="utf-8">
         most of what a professional must cite is not open. ISO standards are sold, SANS papers are
         copyrighted, the FASB Codification needs an account &mdash; while US federal works are
         public domain by statute. The catalog says which, in the imperative, next to the link.
-        <a href="https://github.com/cbrock84/headcount/blob/main/docs/SOURCES.md">See the full index</a>.
+        <a href="https://github.com/DevTheFunkee/secnine/blob/main/docs/SOURCES.md">See the full index</a>.
       </p>
     </div>
 
@@ -512,11 +514,11 @@ TEMPLATE = r"""<meta charset="utf-8">
       </div>
     </div>
     <p class="links">
-      <a href="https://github.com/cbrock84/headcount/blob/main/docs/GETTING-STARTED.md">Getting started</a>
-      <a href="https://github.com/cbrock84/headcount/blob/main/docs/USE-CASES.md">Worked situations</a>
-      <a href="https://github.com/cbrock84/headcount/blob/main/docs/SOURCES.md">Sources</a>
-      <a href="https://github.com/cbrock84/headcount/discussions">Ask a question</a>
-      <a href="https://github.com/cbrock84/headcount">Source</a>
+      <a href="https://github.com/DevTheFunkee/secnine/blob/main/docs/GETTING-STARTED.md">Getting started</a>
+      <a href="https://github.com/DevTheFunkee/secnine/blob/main/docs/USE-CASES.md">Worked situations</a>
+      <a href="https://github.com/DevTheFunkee/secnine/blob/main/docs/SOURCES.md">Sources</a>
+      <a href="https://github.com/DevTheFunkee/secnine/discussions">Ask a question</a>
+      <a href="https://github.com/DevTheFunkee/secnine">Source</a>
     </p>
   </section>
 
@@ -551,7 +553,7 @@ TEMPLATE = r"""<meta charset="utf-8">
 
   <footer>
     <span>Generated from the repository tree — <code>scripts/build-org-chart.py</code></span>
-    <span><a href="https://github.com/cbrock84/headcount">github.com/cbrock84/headcount</a> · MIT</span>
+    <span><a href="https://github.com/DevTheFunkee/secnine">github.com/DevTheFunkee/secnine</a> · MIT · derived from <a href="https://github.com/cbrock84/headcount">cbrock84/headcount</a></span>
   </footer>
 </div>
 
@@ -597,7 +599,7 @@ function card(d) {
     </button>
     <div class="body">
       <div class="install">
-        <code>/plugin install ${esc(d.slug)}@headcount</code>
+        <code>/plugin install ${esc(d.slug)}@secnine</code>
         <button class="copy">Copy</button>
       </div>
       <ul>${d.skills.map(s => `
@@ -621,7 +623,7 @@ function card(d) {
   copy.addEventListener('click', async e => {
     e.stopPropagation();
     try {
-      await navigator.clipboard.writeText(`/plugin install ${d.slug}@headcount`);
+      await navigator.clipboard.writeText(`/plugin install ${d.slug}@secnine`);
       copy.textContent = 'Copied';
       setTimeout(() => { copy.textContent = 'Copy'; }, 1400);
     } catch { copy.textContent = 'Select it'; }

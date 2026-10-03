@@ -5,6 +5,12 @@ description: Raises capital and manages the relationship afterward — deciding 
 
 # Fundraising and investor relations
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Strumenti (SAFE, preferred) e regole SEC non esistono così in Italia.
+> Per gli obblighi usa invece: Codice civile (S.r.l. PMI, categorie di quote); D.L. 179/2012 startup innovative; Reg. UE 2020/1503 crowdfunding; Consob.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Capital is bought, not received, and the terms matter more than the headline number. So does what
 happens for the years afterward, which is where most of the relationship actually lives.
 

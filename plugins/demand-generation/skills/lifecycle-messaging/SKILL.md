@@ -5,6 +5,12 @@ description: Designs automated email and SMS programs — welcome and onboarding
 
 # Lifecycle messaging
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Email/SMS automatici: soft spam e opt-in italiani diversi dal CAN-SPAM.
+> Per gli obblighi usa invece: D.Lgs. 196/2003 art. 130 c. 4; Dir. 2002/58/CE (ePrivacy).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Map the lifecycle before writing any message
 
 For each stage, name what the person is trying to do and what would move them forward. Messages

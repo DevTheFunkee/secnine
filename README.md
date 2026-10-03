@@ -1,93 +1,98 @@
-<h1 align="center">headcount</h1>
+<h1 align="center">SecNine</h1>
 
-<p align="center"><b>Add a department, not a prompt.</b></p>
+<p align="center"><b>Assumi un reparto, non un prompt. Per le imprese italiane ed europee.</b></p>
 
 <p align="center">
-  <a href="AGENTS.md"><img alt="Runs in Claude Code and ChatGPT" src="https://img.shields.io/badge/runs%20in-Claude%20Code%20%C2%B7%20ChatGPT-D97757?style=flat-square"></a>
-  <img alt="16 departments" src="https://img.shields.io/badge/departments-16-3F4B5B?style=flat-square">
-  <img alt="172 skills" src="https://img.shields.io/badge/skills-172-3F4B5B?style=flat-square">
-  <a href="docs/SOURCES.md"><img alt="184 cited sources" src="https://img.shields.io/badge/cited%20sources-184-3F4B5B?style=flat-square"></a>
-  <a href="LICENSE"><img alt="MIT licensed" src="https://img.shields.io/badge/license-MIT-3F4B5B?style=flat-square"></a>
+  <a href="AGENTS.md"><img alt="Funziona in Claude Code e ChatGPT" src="https://img.shields.io/badge/funziona%20in-Claude%20Code%20%C2%B7%20ChatGPT-D97757?style=flat-square"></a>
+  <img alt="17 dipartimenti" src="https://img.shields.io/badge/dipartimenti-17-3F4B5B?style=flat-square">
+  <img alt="180 skill" src="https://img.shields.io/badge/skill-180-3F4B5B?style=flat-square">
+  <a href="docs/LOCALIZZAZIONE.md"><img alt="10 skill localizzate IT/UE" src="https://img.shields.io/badge/localizzate%20IT%2FUE-10-009246?style=flat-square"></a>
+  <a href="docs/SOURCES.md"><img alt="202 fonti citate" src="https://img.shields.io/badge/fonti%20citate-202-3F4B5B?style=flat-square"></a>
+  <a href="LICENSE"><img alt="Licenza MIT" src="https://img.shields.io/badge/licenza-MIT-3F4B5B?style=flat-square"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/cbrock84/headcount/actions/workflows/checks.yml"><img alt="Checks" src="https://img.shields.io/github/actions/workflow/status/cbrock84/headcount/checks.yml?style=flat-square&label=checks"></a>
-  <a href="https://github.com/cbrock84/headcount/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/cbrock84/headcount?style=flat-square&color=3F4B5B"></a>
-  <a href="https://github.com/cbrock84/headcount/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/cbrock84/headcount?style=flat-square&color=3F4B5B"></a>
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/cbrock84/headcount?style=flat-square&color=3F4B5B">
-  <img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=cbrock84.headcount&title=visitors&color=3F4B5B">
-  <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-2EA043?style=flat-square"></a>
+  <a href="https://github.com/DevTheFunkee/secnine/actions/workflows/checks.yml"><img alt="Controlli" src="https://img.shields.io/github/actions/workflow/status/DevTheFunkee/secnine/checks.yml?style=flat-square&label=controlli"></a>
+  <a href="https://github.com/DevTheFunkee/secnine/actions/workflows/revisioni.yml"><img alt="Revisioni normative" src="https://img.shields.io/github/actions/workflow/status/DevTheFunkee/secnine/revisioni.yml?style=flat-square&label=revisioni"></a>
+  <a href="https://github.com/DevTheFunkee/secnine/stargazers"><img alt="Stelle" src="https://img.shields.io/github/stars/DevTheFunkee/secnine?style=flat-square&color=3F4B5B"></a>
 </p>
 
-<p align="center">
-  <a href="https://cbrock84.github.io/headcount/org-chart.html">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="docs/assets/org-chart-dark.png">
-      <img alt="The headcount org chart — 16 departments, 172 skills, searchable" src="docs/assets/org-chart-light.png" width="840">
-    </picture>
-  </a>
-</p>
+Un'organizzazione di agenti strutturata come un'azienda: una direzione generale sopra
+17 dipartimenti, 180 skill in tutto, adattata al mercato italiano ed europeo:
+GDPR con le prassi del Garante, NIS2, AI Act, accessibilità, fattura elettronica, Pubblica
+Amministrazione.
 
-<p align="center">
-  <a href="https://cbrock84.github.io/headcount/org-chart.html"><b>Open the interactive org chart</b></a> — search every skill, open a department, jump to the source.
-</p>
+Ogni dipartimento è un plugin che si installa da solo, così un progetto carica solo le funzioni
+che gli servono.
 
-An agent organization structured as a company: a chief executive over
-16 departments, 172 skills in total.
+> **Non sostituisce commercialista, consulente del lavoro o avvocato.** Le skill strutturano il
+> problema e dicono cosa chiedere; le decisioni con effetti fiscali, lavoristici o legali vanno
+> validate da un professionista. Vedi [DISCLAIMER.md](DISCLAIMER.md).
 
-Every department is an independently installable plugin, so a project loads only the functions it
-needs rather than all of them at once.
-
-## Install
+## Installazione
 
 **[Claude Code](https://claude.com/claude-code)**
 
 ```
-/plugin marketplace add cbrock84/headcount
-/plugin install security@headcount
+/plugin marketplace add DevTheFunkee/secnine
+/plugin install legal-risk@secnine
+/plugin install pa@secnine
 ```
 
-**ChatGPT and Codex** — the same repository. Add it as a plugin marketplace, or drop the
-department you want into `.agents/skills/` in your own project.
+**ChatGPT e Codex**: lo stesso repository. Aggiungilo come marketplace di plugin, oppure copia il
+dipartimento che ti serve in `.agents/skills/` nel tuo progetto. Le skill sono identiche, cambiano
+solo i manifest, generati dallo stesso albero. Vedi `AGENTS.md`.
 
-The skills are identical in both; only the manifests differ, and both sets are generated from
-this tree, so a fix reaches both at once. See `AGENTS.md`.
+Le skill si indirizzano come `dipartimento:skill` (`legal-risk:nis2-compliance`,
+`finance:fatturazione-elettronica-sdi`), quindi i nomi non collidono.
 
-Install as many departments as the project needs. Skills are addressed as `department:skill` —
-`security:threat-modeling`, `finance:unit-economics` — so names never collide.
+## Uso
 
-## Use
+Le skill si attivano da sole quando la richiesta corrisponde:
 
-Skills load themselves when a request matches. Ask a question in the department's territory and the
-right specialist engages:
-
-| You ask | What loads |
+| Chiedi | Cosa si attiva |
 |---|---|
-| "why isn't this landing page converting?" | `demand-generation:landing-page-cro-expert` |
-| "review this design before we build it" | `security:threat-modeling` |
-| "can we afford this hire?" | `finance:unit-economics` |
-| "our growth has stalled" | `executive:business-growth-consultant` |
+| "siamo soggetti alla NIS2?" | `legal-risk:nis2-compliance` |
+| "perché SDI mi ha scartato la fattura?" | `finance:fatturazione-elettronica-sdi` |
+| "il nostro chatbot rientra nell'AI Act?" | `legal-risk:eu-ai-act-compliance` |
+| "dobbiamo integrare SPID e pagoPA per il comune" | `pa:piattaforme-abilitanti` |
+| "rivedi questo design prima di svilupparlo" | `security:threat-modeling` |
 
-Invoke one directly by name when you want a specific lens: `/finance:financial-modeling`.
+Oppure chiamane una per nome: `/legal-risk:privacy-and-data-protection`.
 
-New to this? [docs/GETTING-STARTED.md](docs/GETTING-STARTED.md) covers which departments to
-install first, the three ways to invoke a skill, and what reviewer-class departments do
-differently.
+## Stato della localizzazione
 
-Eleven situations that cross departments — a SOC 2 demand from an enterprise prospect, a link
-down between two sites, a renewal that auto-renewed because nobody owned the date — are worked
-through end to end in [docs/USE-CASES.md](docs/USE-CASES.md), including what comes back and
-where a reviewer-class department stops the work rather than adding an opinion.
+Ogni skill ha una riga in [`localization/registry.toml`](localization/registry.toml) che dice a
+che punto è, e la CI la verifica a ogni push:
 
-Each department also ships an agent charter in `.claude/agents/`, so a department can be delegated
-to as a subagent with its own exclusive write surface.
+| Stato | Skill | Significato |
+|---|---|---|
+| universale | 116 | Metodo valido ovunque, testo upstream in inglese |
+| localizzata | 2 | Riscritta per IT/UE, datata, con fonti ufficiali |
+| nuova | 8 | Creata per IT/UE, datata, con fonti ufficiali |
+| da localizzare | 54 | Riferimenti ancora USA: la skill lo dichiara in testa |
+| da creare | 10 | In programma per il core pubblico |
 
-## Departments
+Le skill localizzate portano una **data di revisione normativa**. Un controllo settimanale fallisce
+quando una revisione è scaduta, perché una norma cambia senza che cambi nulla nel codice.
+
+## Core pubblico e pacchetti pro
+
+Questo repository è il core open source. Le aree che richiedono aggiornamento continuo e hanno
+rischio professionale alto sono pacchetti privati in abbonamento, curati da Bitlore:
+
+- **fisco** (5 skill): IVA, regime forfettario, F24 e scadenzario, crediti d'imposta, corrispettivi.
+- **lavoro** (3 skill): CCNL e inquadramento, TFR e previdenza complementare, welfare aziendale.
+- **appalti** (5 skill): Codice appalti, MePA e Consip, documentazione di gara, fatturazione verso PA, PNRR.
+
+Info: [secnine.it](https://secnine.it) · [bitlore.it](https://bitlore.it)
+
+## Dipartimenti
 
 <details>
-<summary><b>Office of the CEO</b> (Chief Executive) — 7 skills</summary>
+<summary><b>Office of the CEO</b> (Chief Executive) — 7 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `agent-hierarchy` | Designs orchestrator-and-subagent hierarchies for a repository — splitting agents by exclusive write surface, pairing every producer with an independent auditor, an…. |
 | `ai-research-analyst` | Produces executive-level research — market sizing, competitor mapping, trend analysis, and strategic intelligence — grounded in cited sources with the confidence in…. |
@@ -100,9 +105,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Technology</b> (CTO / CIO) — 19 skills</summary>
+<summary><b>Technology</b> (CTO / CIO) — 19 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `ai-workflow-architect` | Designs AI systems, automations, and agent workflows for a business — identifying which manual work is worth automating, how to structure the system, which tools fi…. |
 | `api-design` | Designs interfaces that survive their consumers — resource modeling, errors, versioning, pagination, and compatibility. |
@@ -127,15 +132,15 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Security</b> (CISO) — 8 skills · **reviewer-class**</summary>
+<summary><b>Security</b> (CISO) — 8 skill · **reviewer**</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `access-and-identity` | Designs and audits who can reach what — authentication, authorization models, privileged access, service credentials, and joiner-mover-leaver process. |
 | `chief-information-security-officer` | Owns the security posture of the organization — architecture, program strategy, risk acceptance, incident command, and the authority to stop work that creates unacc…. |
 | `data-protection-and-encryption` | Protects data itself rather than the systems around it — classifying what you hold, encrypting in transit and at rest and understanding what each actually defends a…. |
 | `detection-and-monitoring` | Builds the capability to notice an attack in progress — deciding what to log and retain, centralizing it somewhere tamper-resistant, writing detections that fire on…. |
-| `incident-response` | Runs a security incident from detection to closure — triage, containment, investigation, communication, and the review afterward. |
+| `incident-response` | Gestisce un incidente di sicurezza dalla rilevazione alla chiusura — triage, contenimento, indagine, comunicazione e revisione finale — con le notifiche obbligatori…. |
 | `security-architecture-review` | Reviews a design or change for security before it ships — authentication and authorization, data handling, secrets, dependencies, and the secure-development practic…. |
 | `threat-modeling` | Identifies what could go wrong in a system before it is built or changed — the assets worth attacking, the entry points, the trust boundaries, and the controls that…. |
 | `vulnerability-management` | Runs the loop from discovering a weakness to confirming it is fixed — scanning, triage, prioritization by real exploitability, remediation tracking, and patch policy. |
@@ -143,9 +148,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>IT Operations</b> (CIO) — 12 skills</summary>
+<summary><b>IT Operations</b> (CIO) — 12 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `backup-and-recovery` | Protects and restores data — backup coverage and scope, retention, immutability against ransomware, and proving restores actually work. |
 | `chief-information-officer` | The CIO's remit — running the technology the company works on, service quality, IT spend, and the boundary with product engineering. |
@@ -163,9 +168,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Product</b> (CPO) — 11 skills</summary>
+<summary><b>Product</b> (CPO) — 11 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `brand-identity` | Defines and applies visual brand — logo usage, palette, typography, imagery direction, and the guidelines that keep expression consistent across product and marketi…. |
 | `chief-product-officer` | Owns what gets built and why: product strategy, roadmap, discovery, user experience, and the definition of success for each release. |
@@ -182,9 +187,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Marketing</b> (CMO) — 19 skills</summary>
+<summary><b>Marketing</b> (CMO) — 19 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `behavioral-marketing` | Applies decision science and cognitive bias research to marketing and product decisions — how people actually choose under uncertainty, and how framing, defaults, s…. |
 | `brand-voice` | Captures how a person or brand actually writes and turns it into reusable voice instructions every other content skill draws from. |
@@ -209,9 +214,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Demand Generation</b> (CMO) — 12 skills</summary>
+<summary><b>Demand Generation</b> (CMO) — 12 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `account-based-marketing` | Concentrates marketing and sales effort on a named set of accounts rather than on volume — qualifying whether the model fits your economics at all, building the acc…. |
 | `ai-search-optimization` | Optimizes for AI assistants and AI-generated answers — being retrievable, being cited, and being represented accurately when a model answers on your behalf. |
@@ -229,9 +234,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Revenue</b> (CRO) — 10 skills</summary>
+<summary><b>Revenue</b> (CRO) — 10 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `activation` | Gets new users from signup to first real value — signup flow, onboarding, time-to-value, and the early experience that determines whether someone becomes a user or…. |
 | `chief-revenue-officer` | Owns the revenue engine end to end: sales, monetization, pricing, customer success, retention, and partnerships. |
@@ -247,15 +252,16 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Finance</b> (CFO) — 13 skills</summary>
+<summary><b>Finance</b> (CFO) — 14 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `budgeting-and-forecasting` | Runs the planning cycle — annual budget, rolling forecast, consolidation of business unit inputs, and the variance analysis that explains actuals against plan. |
 | `capital-allocation` | Evaluates where to spend limited capital — investment appraisal, hurdle rates, payback, and comparing proposals that are not alike. |
 | `capital-structure-and-covenants` | Decides how the business is financed and what that financing then requires of it — debt versus equity, weighted average cost of capital as a hurdle rate, how much l…. |
 | `chief-financial-officer` | Owns the financial position: planning, budgeting, forecasting, unit economics, cash, and the numbers the business is run and reported on. |
 | `cost-accounting` | Establishes what something actually costs — fixed, variable and mixed cost behavior, absorption versus variable costing, job-order, process and activity-based metho…. |
+| `fatturazione-elettronica-sdi` | Imposta e controlla la fatturazione elettronica italiana via Sistema di Interscambio — tracciato FatturaPA, codice destinatario e PEC, tipi documento e codici natur…. |
 | `financial-modeling` | Builds and stress-tests financial models for forecasting, scenario planning, and decision support — revenue build, cost structure, driver logic, and the sensitiviti…. |
 | `financial-reporting-and-close` | Runs the period-end close and produces reporting — close calendar, reconciliations, accruals, variance analysis, and reporting that gets read. |
 | `financial-statement-analysis` | Reads a set of financial statements and establishes what changed and why — fluctuation analysis against prior period and against budget, profitability, liquidity, s…. |
@@ -268,9 +274,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Operations</b> (COO) — 12 skills</summary>
+<summary><b>Operations</b> (COO) — 12 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `business-continuity-and-resilience` | Plans for operating through disruption — impact analysis, recovery objectives, continuity plans, and the exercises that prove they work. |
 | `capacity-and-demand-planning` | Matches operational capacity to expected demand — forecasting load, sizing teams and systems, managing queues, and deciding when to add capacity. |
@@ -288,9 +294,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Program Management Office</b> (EPMO / COO) — 9 skills</summary>
+<summary><b>Program Management Office</b> (EPMO / COO) — 9 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `benefits-realization` | Ensures projects deliver the value they were approved on — defining measurable benefits, baselining, tracking after delivery, and honest post-implementation review. |
 | `change-and-adoption` | Gets people to actually use what was delivered — stakeholder analysis, communication, training, resistance, and measuring adoption. |
@@ -305,9 +311,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Customer Experience</b> (CCO) — 7 skills</summary>
+<summary><b>Customer Experience</b> (CCO) — 7 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `chief-customer-officer` | Owns the customer's experience after the sale — support, success, escalation, and the feedback loop back into product. |
 | `customer-onboarding-and-implementation` | Takes a new customer from signature to working — setting a definition of live that both sides agreed before the contract was signed, planning and staffing the imple…. |
@@ -320,9 +326,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Data & Analytics</b> (CDO) — 7 skills</summary>
+<summary><b>Data & Analytics</b> (CDO) — 7 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `ai-ml-governance` | Governs models and AI systems in production — intended use, evaluation, monitoring, human oversight, documentation, and the decision to deploy or retire. |
 | `business-intelligence` | Builds reporting and self-serve analytics that people actually use — metric trees, dashboard design, distribution, and the discipline that stops dashboards prolifer…. |
@@ -335,9 +341,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Corporate Strategy</b> (CSO) — 6 skills</summary>
+<summary><b>Corporate Strategy</b> (CSO) — 6 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `chief-strategy-officer` | Owns where the business plays and how it wins over a multi-year horizon — portfolio choices, corporate development, strategic partnerships, and planning under uncer…. |
 | `market-entry` | Decides whether and how to enter a new market — sizing demand from the bottom up rather than from a market report, testing whether your advantage transfers, choosin…. |
@@ -349,9 +355,9 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>People</b> (CHRO) — 12 skills</summary>
+<summary><b>People</b> (CHRO) — 12 skill</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `benefits-and-leave` | Designs and runs employee benefits and leave — health and retirement plans, leave policy, cost and renewal, and the administration that keeps them compliant. |
 | `chief-human-resources-officer` | Owns the organization itself: org design, hiring, performance, compensation, development, culture, and employee relations. |
@@ -369,120 +375,85 @@ to as a subagent with its own exclusive write surface.
 </details>
 
 <details>
-<summary><b>Legal & Risk</b> (CLO / CCO) — 8 skills · **reviewer-class**</summary>
+<summary><b>Legal & Risk</b> (CLO / CCO) — 11 skill · **reviewer**</summary>
 
-| Skill | What it does |
+| Skill | Cosa fa |
 |---|---|
 | `chief-legal-and-risk-officer` | Owns legal, contracts, intellectual property, regulatory compliance, privacy, security governance, enterprise risk, and audit readiness. |
 | `contract-review` | Reviews and negotiates commercial agreements — MSAs, SOWs, order forms, NDAs, vendor and data-processing agreements — identifying material risk, proposing positions…. |
 | `corporate-governance` | Maintains the corporate record and the governance machinery — entity records, board and committee support, resolutions and minutes, delegations of authority, insura…. |
 | `disputes-and-legal-holds` | Handles a dispute from the first sign of it — recognizing when preservation obligations attach, issuing and scoping a legal hold, suspending automatic deletion acro…. |
 | `enterprise-risk` | Identifies, assesses, and tracks organizational risk — building and maintaining a risk register, scoring exposure, assigning owners and treatments, and preparing fo…. |
+| `eu-ai-act-compliance` | Classifica un sistema di intelligenza artificiale secondo l'AI Act (Reg. UE 2024/1689) e la legge italiana sull'IA (L. 132/2025) e ricava gli obblighi — pratiche vi…. |
+| `european-accessibility-act` | Stabilisce se un prodotto o servizio digitale ricade nell'European Accessibility Act (Dir. UE 2019/882, recepita con D.Lgs. 82/2022) e cosa serve per rispettarlo —…. |
 | `intellectual-property` | Covers what the organization owns and what it is only borrowing — trademarks and clearance, copyright and work-for-hire, patents and trade secrets, open-source lice…. |
-| `privacy-and-data-protection` | Assesses and improves how personal data is collected, used, shared, and retained — data mapping, lawful basis, consent, processor agreements, subject rights, and br…. |
+| `nis2-compliance` | Stabilisce se un'azienda è soggetta alla NIS2 come recepita in Italia dal D.Lgs. 138/2024 e cosa comporta — registrazione sul portale ACN, misure di sicurezza di ba…. |
+| `privacy-and-data-protection` | Valuta e migliora come un'azienda italiana raccoglie, usa, condivide e conserva dati personali secondo GDPR, Codice privacy (D.Lgs. 196/2003) e prassi del Garante —…. |
 | `regulatory-compliance` | Identifies which regulations apply and builds the program that keeps you inside them — obligation mapping, controls, monitoring, and responding to regulators. |
 
 </details>
 
-**Reviewer-class departments** (`security`, `legal-risk`) review what other departments build, and
-their blocking findings are not overrulable by the department under review. That is why the CISO
-and the CLO report to the chief executive rather than into the function they oversee.
+<details>
+<summary><b>Pubblica Amministrazione</b> (Head of Public Sector) — 4 skill</summary>
 
-## Sources
+| Skill | Cosa fa |
+|---|---|
+| `accessibilita-pa` | Rende conformi siti e app della Pubblica Amministrazione e delle grandi imprese obbligate alla Legge Stanca (L. 4/2004) — requisiti tecnici EN 301 549 e WCAG, dichi…. |
+| `head-of-public-sector` | Guida il lavoro con la Pubblica Amministrazione italiana — decidere se e come vendere alla PA, cosa preparare prima della prima gara, quali regole tecniche AgID e q…. |
+| `linee-guida-agid-sviluppo` | Applica le regole che la PA italiana impone al software che compra o commissiona — valutazione comparativa e riuso (art. 68 CAD), rilascio in open source e publicco…. |
+| `piattaforme-abilitanti` | Progetta l'integrazione di un servizio con le piattaforme abilitanti nazionali — SPID e CIE per l'autenticazione, pagoPA per i pagamenti, App IO per messaggi e serv…. |
 
-A skill states what a competent practitioner knows. It cannot state what the regulator
-published last month — it is written once and the obligation moves. So skills that answer
-questions an outside authority settles carry a list of those authorities, in
-`references/sources.md` inside the skill, which is where an agent reads it while answering.
+</details>
 
-184 sources across 150 skills so far — tax and accounting, law and
-employment, security and controls frameworks, education standards.
-[The full index is in `docs/SOURCES.md`](docs/SOURCES.md).
+I **dipartimenti reviewer** (`security`, `legal-risk`) rivedono ciò che costruiscono gli altri, e
+i loro blocchi non sono scavalcabili dal dipartimento sotto revisione.
 
-**References, never copies**, and every entry carries what you may actually do with it. That
-second part is the point: most of what a professional must cite is not open. ISO standards are
-sold, SANS papers are copyrighted, the FASB Codification needs an account — while US federal
-works are public domain by statute and EU legal texts are reusable with attribution.
-125 of the 184 are quotable; the rest are read-and-cite, and the entry
-says so in the imperative next to the link.
+## Fonti
 
-Links are re-checked weekly by their own workflow rather than on every push, because a
-publisher being briefly down is not a reason to fail an unrelated pull request.
+202 fonti su 154 skill: Normattiva, EUR-Lex, Garante, ACN, AgID, Agenzia
+delle Entrate, ANAC e le fonti tecniche internazionali. Ogni skill le trova in
+`references/sources.md`. [Indice completo in `docs/SOURCES.md`](docs/SOURCES.md).
 
-## How it is organized
+**Riferimenti, mai copie**: ogni voce dice cosa si può farne. I testi di legge italiani ed europei
+sono citabili; le pagine delle autorità e le norme tecniche si leggono e si citano.
+133 delle 202 sono riproducibili.
+
+## Come è organizzato
 
 ```
-plugins/<department>/
-  .claude-plugin/plugin.json   department manifest, Claude Code
-  .codex-plugin/plugin.json    the same department, ChatGPT and Codex
-  skills/<skill>/SKILL.md      frontmatter name equals the directory name
-  skills/<skill>/references/   supporting files, including the skill's sources
-.claude-plugin/marketplace.json  the marketplace Claude Code reads
-.agents/plugins/marketplace.json the same departments, for ChatGPT and Codex
-sources/*.toml                 the source catalog, mapped to the skills it serves
-verticals/<name>/              industry packs, emitted as standalone repositories
-.claude/agents/<id>.md         one charter per department
-AGENTS.md                      repository context for any agent working on this repo
-docs/AGENT-SURFACES.md         every path has exactly one owner, enforced in CI
-docs/DECISION-LOG.md           numbered decisions with options and recommendations
-docs/GETTING-STARTED.md        install, what to take first, and how to invoke a skill
-docs/SOURCES.md                every source in the catalog, and what may be done with it
-docs/USE-CASES.md              situations worked end to end across departments
-docs/org-chart.html            interactive org chart, searchable across every skill
-docs/index.html                GitHub Pages entry point, redirects to the chart
+plugins/<dipartimento>/
+  .claude-plugin/plugin.json   manifest del dipartimento, Claude Code
+  .codex-plugin/plugin.json    lo stesso dipartimento, ChatGPT e Codex
+  skills/<skill>/SKILL.md      il nome nel frontmatter è uguale alla cartella
+  skills/<skill>/references/   file di supporto, comprese le fonti della skill
+localization/registry.toml     stato di localizzazione, livello core/pro e data di revisione
+sources/*.toml                 catalogo delle fonti, collegato alle skill
+.claude/agents/<id>.md         un charter per dipartimento
+docs/LOCALIZZAZIONE.md         come si localizza una skill e come si rivede
+docs/AGENT-SURFACES.md         ogni percorso ha un solo proprietario, verificato in CI
+docs/DECISION-LOG.md           decisioni numerate, upstream e IT/UE
+DISCLAIMER.md                  limiti d'uso professionali
+docs/ORIGINE.md                origine del progetto e attribuzioni
 ```
 
-Agents split by **exclusive write surface**, not by topic — a topic split has no checkable
-boundary, and two agents working on "SEO" and "UI" both end up in the same file. See
-`executive:agent-hierarchy` for the method.
-
-## Contributing
+## Contribuire
 
 ```
 ./scripts/check-all.sh
 ```
 
-Every check CI runs, in one script. The surface map is coherent; every skill's frontmatter is
-valid and unique; no third-party license text has appeared; the README, social card and org
-chart are current; every `department:skill` reference resolves; spelling is US English; no
-`## Never` block mixes two styles; the source catalog is valid and every skill's source file
-matches it; the ChatGPT manifests match the Claude ones; every vertical emits a repository that
-passes its own checks; and every manifest parses. CI calls this same script, so local and CI
-cannot drift.
+Tutti i controlli della CI in un solo script. Per localizzare una skill segui
+[docs/LOCALIZZAZIONE.md](docs/LOCALIZZAZIONE.md); per tutto il resto [CONTRIBUTING.md](CONTRIBUTING.md).
 
-A new department needs its roster row in `docs/AGENT-SURFACES.md`, a surface block, a charter in
-`.claude/agents/`, and an entry in `.claude-plugin/marketplace.json` — all in the same change, or
-the check fails.
+## Origine e licenza
 
-## Contributors
+SecNine deriva da [headcount](https://github.com/cbrock84/headcount) di
+[Chris Brock](https://chrisbrock.io), rilasciato con licenza MIT. Architettura, skill universali e
+strumenti di build sono suoi; localizzazione IT/UE, dipartimento PA e controlli di revisione sono di
+[Bitlore](https://bitlore.it). Dettagli in [docs/ORIGINE.md](docs/ORIGINE.md).
 
-<a href="https://github.com/cbrock84/headcount/graphs/contributors">
-  <img alt="Contributors to headcount" src="https://contrib.rocks/image?repo=cbrock84/headcount">
-</a>
-
-The ChatGPT and Codex support in this repository started as a contribution from
-[@adi-dibra](https://github.com/adi-dibra), who worked out that the same `SKILL.md` files load
-in both tools and that only the manifests differ.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=cbrock84/headcount&type=Date&theme=dark">
-  <img alt="Star history" src="https://api.star-history.com/svg?repos=cbrock84/headcount&type=Date" width="600">
-</picture>
-
-## Writing
-
-Notes from building and running this, and from the day job — technology, security, AI, and the
-operating side of all three — go out at [cbrock84.substack.com](https://cbrock84.substack.com).
-
-The piece on why this is shaped like an org chart at all, and what broke before it was:
-[Giving AI agents an org chart](https://cbrock84.substack.com/p/giving-ai-agents-an-org-chart).
-
-## License
-
-MIT — see [LICENSE](LICENSE). Every skill here was written for this repository.
-
-Built by [Chris Brock](https://chrisbrock.io).
+MIT, vedi [LICENSE](LICENSE).
 
 ---
 
-<sub>README generated by `scripts/build-readme.py` — edit that, not this file.</sub>
+<sub>README generato da `scripts/build-readme.py`: modifica quello, non questo file.</sub>

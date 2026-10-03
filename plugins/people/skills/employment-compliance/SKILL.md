@@ -5,6 +5,12 @@ description: Covers the employment rules that carry real penalties — exempt an
 
 # Employment compliance
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Interamente USA (FLSA, I-9); va riscritta su subordinazione, orario e collaborazioni.
+> Per gli obblighi usa invece: D.Lgs. 81/2015; D.Lgs. 66/2003; art. 2094 c.c.; Ispettorato Nazionale del Lavoro.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 This is the area where a well-intentioned decision made quickly costs the most later, because the
 mistakes are cheap to make, invisible for years, and expensive per-employee once found.
 

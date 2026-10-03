@@ -5,6 +5,12 @@ description: Takes a new customer from signature to working — setting a defini
 
 # Customer onboarding and implementation
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Cita l'ESIGN Act USA per la firma; in UE vale eIDAS e in Italia il CAD.
+> Per gli obblighi usa invece: Reg. UE 910/2014 e 2024/1183 (eIDAS 2); D.Lgs. 82/2005 CAD artt. 20-21.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 The period between signature and first real use is where the largest share of preventable churn is
 created, and where a customer's opinion of the product is formed permanently.
 

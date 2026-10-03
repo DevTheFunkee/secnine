@@ -1390,3 +1390,48 @@ emitter now resolve against the core and every vertical.
 **The emitted map drops the `verticals` and `sources` rows.** Their inputs stay upstream, so
 downstream those rows would claim paths that are not there — a map that governs nothing, which is
 the condition the authority column was added to eliminate.
+
+---
+
+# Decisioni dell'edizione IT/UE (SecNine)
+
+## D-IT1 — Derivato con la stessa architettura, non riscrittura
+
+**Contesto.** Serve un'"azienda di agenti" localizzata per Italia e UE; headcount ha già
+architettura, controlli e 116 skill universali.
+**Opzioni.** (a) Fork con la stessa architettura; (b) riscrittura da zero; (c) solo layer regionale
+upstream.
+**Decisione.** (a), conservando licenza MIT e copyright originali (docs/ORIGINE.md). Il layer regionale
+upstream resta da proporre a Chris Brock: se viene accettato, SecNine può diventarne un consumatore.
+
+## D-IT2 — Controllo di localizzazione al posto di US-English
+
+**Contesto.** Il controllo US-English rifiuterebbe ogni skill in italiano, e non dice nulla
+sull'unico rischio vero di una skill normativa: diventare vecchia.
+**Decisione.** Tolto `check-us-english.py`; aggiunti `localization/registry.toml` e
+`check-localization.py` (stato dichiarato, data di revisione, fonti ufficiali) più un workflow
+settimanale che fallisce sulle revisioni scadute.
+
+## D-IT3 — Via i verticali statunitensi
+
+**Contesto.** `industrial` ed `education` portano contenuti OSHA, NLRB e standard scolastici USA.
+**Decisione.** Rimossi con le loro fonti. `build-vertical.py` resta e accetta zero verticali, così
+un verticale italiano (manifattura, scuola) si aggiunge senza toccare il generatore.
+
+## D-IT4 — Lingua
+
+Skill universali in inglese, come upstream; skill localizzate e nuove in italiano, perché il
+lettore è un'impresa italiana e le fonti sono in italiano. La sezione fonti delle skill italiane si
+chiama `## Fonti`; `check-sources.py` accetta entrambe.
+
+## D-IT5 — Open core
+
+Core pubblico per visibilità e adozione; pacchetti privati `fisco`, `lavoro`, `appalti` per le aree
+ad aggiornamento continuo e rischio professionale alto. Il contenuto pro non entra mai nel
+repository pubblico: il controllo fallisce se una skill pro compare in `plugins/`.
+
+## D-IT6 — Dipartimento `pa`
+
+La Pubblica Amministrazione non è un sottoinsieme di vendite o legale: ha regole tecniche proprie
+(CAD, AgID, piattaforme abilitanti) oltre al Codice appalti. Nuovo dipartimento con charter e
+superficie propria; la parte appalti è nel pacchetto pro.

@@ -1,0 +1,20 @@
+name: revisioni normative
+
+# Una skill localizzata dice cosa prevede la norma a una certa data. La norma cambia senza che
+# nulla cambi in questo repository, quindi la scadenza delle revisioni si controlla con un
+# orologio, non con un diff: fallire una PR estranea perché una data è scaduta ieri non aiuta.
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  revisioni:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Revisioni scadute
+        run: python3 scripts/check-localization.py --strict-dates

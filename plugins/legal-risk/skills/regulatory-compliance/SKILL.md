@@ -5,6 +5,12 @@ description: Identifies which regulations apply and builds the program that keep
 
 # Regulatory compliance
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Mappa obblighi su FedRAMP/OSHA/eCFR; per UE servono NIS2, CRA, DORA, AI Act.
+> Per gli obblighi usa invece: D.Lgs. 138/2024 (NIS2); Reg. UE 2024/2847 (CRA); Reg. UE 2022/2554 (DORA); Reg. UE 2024/1689.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Compliance failures are rarely defiance. They are almost always an obligation nobody knew applied,
 in a jurisdiction nobody was watching, discovered by someone external.
 

@@ -5,6 +5,12 @@ description: Structures the tax questions a growing business faces — corporate
 
 # Tax
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Interamente USA (nexus, sales tax, IRS): va riscritta su IRES, IRAP, IVA e regimi italiani.
+> Per gli obblighi usa invece: TUIR D.P.R. 917/1986; D.P.R. 633/1972 (IVA); D.Lgs. 446/1997 (IRAP); Agenzia delle Entrate.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Tax obligations are created by facts — where you sell, where people work, what you sell — not by
 decisions anyone consciously makes. The characteristic failure is discovering an obligation years
 after it began, with penalties and interest attached.

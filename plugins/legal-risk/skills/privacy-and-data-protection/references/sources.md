@@ -4,13 +4,13 @@
 
 Check these before answering on anything they cover, and cite what you used. The use note on each one is binding: most of what a professional cites is free to read and not free to reproduce.
 
-## California Consumer Privacy Act — Attorney General
+## D.Lgs. 196/2003 — Codice in materia di protezione dei dati personali
 
-California Office of the Attorney General · US-CA · public domain — quote freely
+Istituto Poligrafico e Zecca dello Stato — Normattiva · IT · public domain — quote freely
 
-<https://oag.ca.gov/privacy/ccpa>
+<https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196>
 
-**Authoritative for:** The largest US state privacy regime, and the template several other states followed. Start here before generalizing about 'US state privacy law', which is not one thing.
+**Authoritative for:** Le norme italiane che integrano il GDPR come modificate dal D.Lgs. 101/2018: marketing diretto e soft spam (art. 130), età del consenso digitale a 14 anni (art. 2-quinquies), trattamenti in ambito lavorativo, sanzioni penali.
 
 ## European Data Protection Board guidelines and recommendations
 
@@ -19,6 +19,22 @@ EDPB · EU · free to use with attribution — credit the publisher
 <https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en>
 
 **Authoritative for:** How supervisory authorities actually read the GDPR — lawful basis, transfers, legitimate interest balancing — which is where a plain reading of the regulation stops being enough.
+
+## Garante per la protezione dei dati personali — provvedimenti, linee guida e FAQ
+
+Garante per la protezione dei dati personali · IT · **read and cite only — copyrighted, do not reproduce**
+
+<https://www.garanteprivacy.it/>
+
+**Authoritative for:** Come l'autorità italiana applica il GDPR nei casi concreti: cookie, videosorveglianza, rapporto di lavoro, telemarketing, amministratori di sistema. È dove la lettura del regolamento smette di bastare.
+
+## Garante — notifica di una violazione dei dati personali
+
+Garante per la protezione dei dati personali · IT · **read and cite only — copyrighted, do not reproduce**
+
+<https://www.garanteprivacy.it/regolamentoue/databreach>
+
+**Authoritative for:** Il canale e il modulo per notificare un data breach al Garante entro 72 ore (art. 33 GDPR), e quando va informato anche l'interessato (art. 34).
 
 ## Regulation (EU) 2016/679 — GDPR
 

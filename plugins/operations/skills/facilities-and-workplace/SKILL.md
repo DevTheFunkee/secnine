@@ -5,6 +5,12 @@ description: Runs the physical and hybrid workplace — space planning, leases, 
 
 # Facilities and workplace
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. OSHA e ADA vanno sostituiti dal Testo unico sicurezza (DVR, RSPP) e norme italiane.
+> Per gli obblighi usa invece: D.Lgs. 81/2008; D.M. 3/9/2021 antincendio; L. 13/1989 barriere architettoniche.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Facilities is invisible when it works and is the loudest topic in the company when it does not. It
 is also, after payroll, frequently the largest fixed commitment a business makes.
 

@@ -5,6 +5,12 @@ description: Writes and edits marketing copy for any surface — homepage, produ
 
 # Marketing copywriting
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Claim, prezzi e comparativa seguono Codice del consumo e IAP, non le guide FTC.
+> Per gli obblighi usa invece: D.Lgs. 206/2005; D.Lgs. 145/2007 (pubblicità comparativa); Codice di Autodisciplina IAP.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Before writing a word
 
 Settle four things. Copy written without them is decoration:

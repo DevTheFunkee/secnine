@@ -5,6 +5,12 @@ description: Builds the help center, in-product guidance, and knowledge base tha
 
 # Self-service and knowledge
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Accessibilità dell'help center: in UE si applica l'European Accessibility Act ai servizi B2C.
+> Per gli obblighi usa invece: Dir. UE 2019/882 (EAA); D.Lgs. 82/2022; EN 301 549.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Good self-service is the cheapest support you will ever run and the most neglected. It is also
 frequently the wrong answer — an article explaining a confusing screen is a bandage on a design
 problem.

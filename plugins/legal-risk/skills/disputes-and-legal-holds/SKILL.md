@@ -5,6 +5,12 @@ description: Handles a dispute from the first sign of it — recognizing when pr
 
 # Disputes and legal holds
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. FRCP e discovery USA non esistono in Italia; servono c.p.c., mediazione e conservazione.
+> Per gli obblighi usa invece: Codice di procedura civile; D.Lgs. 28/2010 (mediazione); D.Lgs. 82/2005 CAD (conservazione).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 The decisions that determine how a dispute goes are made in the first week, usually by people who
 do not know a dispute has started.
 

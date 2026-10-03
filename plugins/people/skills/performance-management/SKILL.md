@@ -5,6 +5,12 @@ description: Runs performance systems that change behavior — expectations, fee
 
 # Performance management
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Valutazione e monitoraggio toccano il controllo a distanza e la procedura disciplinare.
+> Per gli obblighi usa invece: L. 300/1970 artt. 4 e 7; Reg. UE 2016/679 art. 88.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Most review systems are an expensive annual ritual that surprises nobody and improves nothing. The
 work happens in the ordinary week; the cycle should record it, not discover it.
 

@@ -5,6 +5,12 @@ description: Writes and edits newsletters and marketing emails people actually o
 
 # Newsletter writer
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Iscrizione, consenso e disiscrizione seguono art. 130 Codice privacy.
+> Per gli obblighi usa invece: D.Lgs. 196/2003 art. 130; Reg. UE 2016/679 art. 7.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 A newsletter is a standing invitation that can be withdrawn at any time. Every issue either renews
 it or spends it.
 

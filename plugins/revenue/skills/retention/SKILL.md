@@ -5,6 +5,12 @@ description: Diagnoses and reduces churn — cancellation flows, save offers, fa
 
 # Retention
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Flussi di cancellazione e save offer toccano diritto di recesso e nuovo pulsante di recesso UE.
+> Per gli obblighi usa invece: D.Lgs. 206/2005 artt. 52-59; Dir. UE 2023/2673 (pulsante di recesso).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Separate the two churns first
 
 They have nothing in common but the outcome, and conflating them wastes effort:

@@ -5,6 +5,12 @@ description: Designs and runs the support function — channels, queues, routing
 
 # Support operations
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Registrazione chiamate e chat: il Wiretap Act USA va sostituito da GDPR e prassi del Garante.
+> Per gli obblighi usa invece: Reg. UE 2016/679 artt. 6, 13; D.Lgs. 196/2003; provv. Garante su registrazione telefonate.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Understand demand before designing supply
 
 Categorize a real sample of recent contacts — a few hundred, read individually, not a report. Almost

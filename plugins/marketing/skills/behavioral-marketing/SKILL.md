@@ -5,6 +5,12 @@ description: Applies decision science and cognitive bias research to marketing a
 
 # Behavioral marketing
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Le leve psicologiche incontrano i limiti UE su dark pattern e pratiche aggressive.
+> Per gli obblighi usa invece: D.Lgs. 206/2005 artt. 24-26; Reg. UE 2022/2065 (DSA) art. 25; linee guida EDPB 03/2022 dark pattern.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 People do not evaluate offers on merit and then act. They decide fast, under uncertainty, using
 whatever the context makes salient — and then explain the decision afterward. Marketing that assumes
 otherwise loses to marketing that does not.

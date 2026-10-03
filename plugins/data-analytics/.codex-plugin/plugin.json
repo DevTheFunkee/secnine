@@ -1,11 +1,12 @@
 {
   "name": "data-analytics",
-  "version": "1.0.0",
-  "description": "Data governance, warehouse and semantic modeling, business intelligence, and AI/ML governance.",
+  "version": "0.1.0",
+  "description": "Business intelligence, data engineering e modellazione, governance del dato e dell'IA.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "data",
@@ -20,7 +21,7 @@
     "displayName": "Data & Analytics",
     "category": "Productivity",
     "shortDescription": "Data & Analytics, as an installable department",
-    "longDescription": "Data governance, warehouse and semantic modeling, business intelligence, and AI/ML governance.",
-    "developerName": "Chris Brock"
+    "longDescription": "Business intelligence, data engineering e modellazione, governance del dato e dell'IA.",
+    "developerName": "Bitlore"
   }
 }

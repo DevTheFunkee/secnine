@@ -5,6 +5,12 @@ description: Sets up, audits, and reports on marketing measurement — tracking 
 
 # Marketing analytics
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Tracciamento e attribuzione dipendono da consenso cookie e trasferimenti extra UE.
+> Per gli obblighi usa invece: Linee guida cookie Garante 10/06/2021; Reg. UE 2016/679 capo V; Data Privacy Framework UE-USA.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## The tracking plan comes first
 
 Dashboards built on bad instrumentation are confident and wrong, which is worse than having none.

@@ -5,6 +5,12 @@ description: Sets direction, allocates capital and attention, and makes the call
 
 # Chief Executive
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Cita diritto societario del Delaware e SEC; in Italia contano c.c. e adeguati assetti.
+> Per gli obblighi usa invece: Codice civile artt. 2086, 2475 ss. (S.r.l.); D.Lgs. 14/2019 Codice della crisi.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Why this role exists
 
 The executive accountable for this function. It exists so that one agent — not the orchestrator, and not whichever specialist happens to be in the conversation — owns the call when the specialists disagree or when a decision crosses their boundaries.

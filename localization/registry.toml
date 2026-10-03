@@ -1,0 +1,1575 @@
+# Registro di localizzazione IT/UE.
+#
+# Una riga per ogni skill del prodotto, pubblica o privata, generata in origine dalla mappa
+# `mappa-skill-eu-it` (2026-10-03) e da allora mantenuta a mano. `scripts/check-localization.py`
+# la confronta con l'albero a ogni push: vedi docs/LOCALIZZAZIONE.md per il significato dei campi.
+#
+#   stato      universale | da-localizzare | localizzata | da-creare | nuova
+#   livello    core (repo pubblico) | pro (pacchetto privato, mai in questo repo)
+#   pacchetto  solo per pro: fisco | lavoro | appalti — diventa il prefisso della skill (`fisco:iva`)
+#   revisione  data dell'ultima verifica normativa (solo localizzata/nuova)
+#   validita_giorni  oltre questa età la revisione è scaduta: avviso a ogni push, errore nel
+#              controllo settimanale
+
+[[skill]]
+ref = "corporate-strategy:chief-strategy-officer"
+dipartimento = "corporate-strategy"
+stato = "universale"
+livello = "core"
+motivo = "Metodo di strategia pluriennale indipendente dal paese; le fonti FTC servono solo per M&A."
+
+[[skill]]
+ref = "corporate-strategy:market-entry"
+dipartimento = "corporate-strategy"
+stato = "universale"
+livello = "core"
+motivo = "Dimensionamento bottom-up e scelta della modalità d'ingresso valgono ovunque."
+fonti_it = "Fonte opzionale: ICE Agenzia (ice.it) per schede paese"
+
+[[skill]]
+ref = "corporate-strategy:mergers-and-acquisitions"
+dipartimento = "corporate-strategy"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Soglie e notifiche antitrust citate sono USA (HSR); in Italia/UE cambiano soglie, autorità e golden power."
+fonti_it = "L. 287/1990 (AGCM); Reg. CE 139/2004 concentrazioni; D.L. 21/2012 golden power; Reg. UE 2019/452 FDI"
+
+[[skill]]
+ref = "corporate-strategy:portfolio-strategy"
+dipartimento = "corporate-strategy"
+stato = "universale"
+livello = "core"
+motivo = "Allocazione fund/hold/harvest/exit è puro metodo."
+
+[[skill]]
+ref = "corporate-strategy:scenario-planning"
+dipartimento = "corporate-strategy"
+stato = "universale"
+livello = "core"
+motivo = "Scenari e indicatori anticipatori non dipendono dalla giurisdizione."
+
+[[skill]]
+ref = "corporate-strategy:strategic-alliances"
+dipartimento = "corporate-strategy"
+stato = "universale"
+livello = "core"
+motivo = "Struttura di partnership e JV è metodo; i profili antitrust rinviano a legal-risk."
+
+[[skill]]
+ref = "customer-experience:chief-customer-officer"
+dipartimento = "customer-experience"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo e loop support-prodotto sono universali."
+
+[[skill]]
+ref = "customer-experience:customer-onboarding-and-implementation"
+dipartimento = "customer-experience"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Cita l'ESIGN Act USA per la firma; in UE vale eIDAS e in Italia il CAD."
+fonti_it = "Reg. UE 910/2014 e 2024/1183 (eIDAS 2); D.Lgs. 82/2005 CAD artt. 20-21"
+
+[[skill]]
+ref = "customer-experience:customer-success-management"
+dipartimento = "customer-experience"
+stato = "universale"
+livello = "core"
+motivo = "Health score e copertura account sono metodo."
+
+[[skill]]
+ref = "customer-experience:escalation-management"
+dipartimento = "customer-experience"
+stato = "universale"
+livello = "core"
+motivo = "Gestione escalation è metodo; NIST 800-61 è riferimento accettabile anche in UE."
+
+[[skill]]
+ref = "customer-experience:self-service-and-knowledge"
+dipartimento = "customer-experience"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Accessibilità dell'help center: in UE si applica l'European Accessibility Act ai servizi B2C."
+fonti_it = "Dir. UE 2019/882 (EAA); D.Lgs. 82/2022; EN 301 549"
+
+[[skill]]
+ref = "customer-experience:support-operations"
+dipartimento = "customer-experience"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Registrazione chiamate e chat: il Wiretap Act USA va sostituito da GDPR e prassi del Garante."
+fonti_it = "Reg. UE 2016/679 artt. 6, 13; D.Lgs. 196/2003; provv. Garante su registrazione telefonate"
+
+[[skill]]
+ref = "customer-experience:voice-of-customer"
+dipartimento = "customer-experience"
+stato = "universale"
+livello = "core"
+motivo = "Raccolta e instradamento feedback sono metodo."
+
+[[skill]]
+ref = "data-analytics:ai-ml-governance"
+dipartimento = "data-analytics"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Già cita l'AI Act ma il peso è su NIST/EEOC; serve la classificazione per rischio UE e la legge italiana sull'IA."
+fonti_it = "Reg. UE 2024/1689 (AI Act); L. 132/2025 (legge italiana IA); linee guida AgID IA nella PA"
+
+[[skill]]
+ref = "data-analytics:business-intelligence"
+dipartimento = "data-analytics"
+stato = "universale"
+livello = "core"
+motivo = "Metric tree e dashboard sono metodo."
+
+[[skill]]
+ref = "data-analytics:chief-data-officer"
+dipartimento = "data-analytics"
+stato = "universale"
+livello = "core"
+motivo = "Governance del dato come asset è universale; Data Act da citare come nota."
+fonti_it = "Nota: Reg. UE 2023/2854 (Data Act)"
+
+[[skill]]
+ref = "data-analytics:data-engineering"
+dipartimento = "data-analytics"
+stato = "universale"
+livello = "core"
+motivo = "Pipeline e qualità sono tecniche, fonti già globali (Iceberg, Parquet, OpenLineage)."
+
+[[skill]]
+ref = "data-analytics:data-governance"
+dipartimento = "data-analytics"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Accesso, conservazione e lineage dipendono da GDPR, Data Act e DGA; va tolto il CCPA."
+fonti_it = "Reg. UE 2016/679; Reg. UE 2023/2854 (Data Act); Reg. UE 2022/868 (DGA); linee guida EDPB"
+
+[[skill]]
+ref = "data-analytics:data-modeling"
+dipartimento = "data-analytics"
+stato = "universale"
+livello = "core"
+motivo = "Modellazione dimensionale è tecnica pura."
+
+[[skill]]
+ref = "data-analytics:quantitative-analysis"
+dipartimento = "data-analytics"
+stato = "universale"
+livello = "core"
+motivo = "Metodo statistico universale; ISTAT come fonte dati opzionale."
+
+[[skill]]
+ref = "demand-generation:account-based-marketing"
+dipartimento = "demand-generation"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Il contatto B2B in UE richiede base giuridica GDPR e regole ePrivacy, non CAN-SPAM."
+fonti_it = "Reg. UE 2016/679 art. 6.1.f; D.Lgs. 196/2003 art. 130; Registro pubblico delle opposizioni (D.P.R. 26/2022)"
+
+[[skill]]
+ref = "demand-generation:ai-search-optimization"
+dipartimento = "demand-generation"
+stato = "universale"
+livello = "core"
+motivo = "Ottimizzazione per assistenti AI, fonti Google/RFC globali."
+
+[[skill]]
+ref = "demand-generation:app-store-optimization"
+dipartimento = "demand-generation"
+stato = "universale"
+livello = "core"
+motivo = "Metadati e conversione negli store sono globali; COPPA è un dettaglio marginale."
+fonti_it = "Nota: età consenso digitale 14 anni (D.Lgs. 101/2018 art. 2-quinquies)"
+
+[[skill]]
+ref = "demand-generation:experimentation"
+dipartimento = "demand-generation"
+stato = "universale"
+livello = "core"
+motivo = "Statistica dei test A/B universale; il consenso cookie è già in chiave UE."
+fonti_it = "Nota: linee guida cookie Garante 10/06/2021"
+
+[[skill]]
+ref = "demand-generation:landing-page-cro-expert"
+dipartimento = "demand-generation"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Claim, prezzi barrati e urgenza vanno letti con Codice del consumo e Omnibus, non con le guide FTC."
+fonti_it = "D.Lgs. 206/2005 artt. 20-27 e 17-bis; Dir. UE 2019/2161 (Omnibus); linee guida cookie Garante"
+
+[[skill]]
+ref = "demand-generation:lead-capture"
+dipartimento = "demand-generation"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Form, popup e consensi: CAN-SPAM/TCPA/CASL non valgono, servono GDPR e art. 130 Codice privacy."
+fonti_it = "Reg. UE 2016/679 artt. 6-7; D.Lgs. 196/2003 art. 130; linee guida EDPB 05/2020 sul consenso"
+
+[[skill]]
+ref = "demand-generation:lifecycle-messaging"
+dipartimento = "demand-generation"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Email/SMS automatici: soft spam e opt-in italiani diversi dal CAN-SPAM."
+fonti_it = "D.Lgs. 196/2003 art. 130 c. 4; Dir. 2002/58/CE (ePrivacy)"
+
+[[skill]]
+ref = "demand-generation:listing-distribution"
+dipartimento = "demand-generation"
+stato = "universale"
+livello = "core"
+motivo = "Directory e structured data sono globali."
+fonti_it = "Nota: Omnibus su recensioni verificate (D.Lgs. 206/2005 art. 22 c. 4-bis)"
+
+[[skill]]
+ref = "demand-generation:marketing-analytics"
+dipartimento = "demand-generation"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Tracciamento e attribuzione dipendono da consenso cookie e trasferimenti extra UE."
+fonti_it = "Linee guida cookie Garante 10/06/2021; Reg. UE 2016/679 capo V; Data Privacy Framework UE-USA"
+
+[[skill]]
+ref = "demand-generation:paid-advertising"
+dipartimento = "demand-generation"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Disclosure e pubblicità ingannevole: FTC sostituita da Codice del consumo, IAP e DSA."
+fonti_it = "D.Lgs. 206/2005; D.Lgs. 145/2007; Codice di Autodisciplina IAP; Reg. UE 2022/2065 (DSA) art. 26"
+
+[[skill]]
+ref = "demand-generation:programmatic-seo"
+dipartimento = "demand-generation"
+stato = "universale"
+livello = "core"
+motivo = "Tecnica SEO, fonti Google globali."
+
+[[skill]]
+ref = "demand-generation:seo-strategy"
+dipartimento = "demand-generation"
+stato = "universale"
+livello = "core"
+motivo = "Tecnica SEO, fonti Google globali."
+
+[[skill]]
+ref = "executive:agent-hierarchy"
+dipartimento = "executive"
+stato = "universale"
+livello = "core"
+motivo = "Architettura di agenti, nessun contenuto normativo."
+
+[[skill]]
+ref = "executive:ai-research-analyst"
+dipartimento = "executive"
+stato = "universale"
+livello = "core"
+motivo = "Metodo di ricerca con fonti citate, universale."
+
+[[skill]]
+ref = "executive:business-growth-consultant"
+dipartimento = "executive"
+stato = "universale"
+livello = "core"
+motivo = "Ricerca del vincolo di crescita è metodo."
+
+[[skill]]
+ref = "executive:ceo-advisor"
+dipartimento = "executive"
+stato = "universale"
+livello = "core"
+motivo = "Pressure test delle decisioni, universale."
+
+[[skill]]
+ref = "executive:chief-executive"
+dipartimento = "executive"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Cita diritto societario del Delaware e SEC; in Italia contano c.c. e adeguati assetti."
+fonti_it = "Codice civile artt. 2086, 2475 ss. (S.r.l.); D.Lgs. 14/2019 Codice della crisi"
+
+[[skill]]
+ref = "executive:fundraising-and-investor-relations"
+dipartimento = "executive"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Strumenti (SAFE, preferred) e regole SEC non esistono così in Italia."
+fonti_it = "Codice civile (S.r.l. PMI, categorie di quote); D.L. 179/2012 startup innovative; Reg. UE 2020/1503 crowdfunding; Consob"
+
+[[skill]]
+ref = "executive:saas-idea-validator"
+dipartimento = "executive"
+stato = "universale"
+livello = "core"
+motivo = "Valutazione dell'idea è metodo."
+
+[[skill]]
+ref = "finance:budgeting-and-forecasting"
+dipartimento = "finance"
+stato = "universale"
+livello = "core"
+motivo = "Ciclo di budget e varianze è metodo; fonti macro da ISTAT/BCE."
+
+[[skill]]
+ref = "finance:capital-allocation"
+dipartimento = "finance"
+stato = "universale"
+livello = "core"
+motivo = "VAN, payback e hurdle rate sono universali; curva dei tassi da BCE."
+
+[[skill]]
+ref = "finance:capital-structure-and-covenants"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Debito, finanziamento soci e covenant hanno regole civilistiche e di crisi d'impresa italiane."
+fonti_it = "Codice civile art. 2467; D.Lgs. 14/2019; garanzie Fondo PMI (L. 662/1996)"
+
+[[skill]]
+ref = "finance:chief-financial-officer"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Riferimenti IRS e FASB: in Italia OIC, Agenzia Entrate e calendario fiscale."
+fonti_it = "OIC (fondazioneoic.eu); Agenzia delle Entrate; Codice civile artt. 2423 ss."
+
+[[skill]]
+ref = "finance:cost-accounting"
+dipartimento = "finance"
+stato = "universale"
+livello = "core"
+motivo = "Contabilità analitica è metodo; FAR/CAS servono solo per appalti federali USA."
+
+[[skill]]
+ref = "finance:fatturazione-elettronica-sdi"
+dipartimento = "finance"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 180
+motivo = "Emissione e ricezione FatturaPA via SDI, codici natura, scarti e conservazione."
+fonti_it = "D.Lgs. 127/2015; provv. Agenzia Entrate specifiche tecniche FatturaPA; L. 205/2017"
+
+[[skill]]
+ref = "finance:financial-modeling"
+dipartimento = "finance"
+stato = "universale"
+livello = "core"
+motivo = "Modellazione e stress test universali."
+
+[[skill]]
+ref = "finance:financial-reporting-and-close"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Chiusura e bilancio seguono OIC e codice civile, con deposito al Registro imprese."
+fonti_it = "Codice civile artt. 2423-2435-ter; principi OIC; deposito XBRL CCIAA"
+
+[[skill]]
+ref = "finance:financial-statement-analysis"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Analisi su schemi US GAAP; va adattata agli schemi civilistici italiani."
+fonti_it = "Codice civile artt. 2424-2425; OIC 12"
+
+[[skill]]
+ref = "finance:internal-controls-and-audit"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "SOX/PCAOB non si applicano; in Italia contano organo di controllo, revisione e modello 231."
+fonti_it = "Codice civile art. 2477; D.Lgs. 39/2010; principi ISA Italia; D.Lgs. 231/2001"
+
+[[skill]]
+ref = "finance:revenue-recognition"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "ASC 606 va sostituito da OIC 34 (o IFRS 15 per chi lo adotta)."
+fonti_it = "OIC 34 Ricavi; IFRS 15 (Reg. UE 2016/1905)"
+
+[[skill]]
+ref = "finance:tax"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Interamente USA (nexus, sales tax, IRS): va riscritta su IRES, IRAP, IVA e regimi italiani."
+fonti_it = "TUIR D.P.R. 917/1986; D.P.R. 633/1972 (IVA); D.Lgs. 446/1997 (IRAP); Agenzia delle Entrate"
+
+[[skill]]
+ref = "finance:treasury-and-liquidity"
+dipartimento = "finance"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Il forecast di cassa deve includere scadenze F24, IVA e contributi italiani."
+fonti_it = "D.Lgs. 241/1997 (F24); calendario fiscale Agenzia Entrate; D.Lgs. 14/2019 (allerta)"
+
+[[skill]]
+ref = "finance:unit-economics"
+dipartimento = "finance"
+stato = "universale"
+livello = "core"
+motivo = "CAC, LTV, margine di contribuzione sono universali."
+
+[[skill]]
+ref = "fisco:agevolazioni-e-crediti-imposta"
+dipartimento = "finance"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "fisco"
+motivo = "Crediti R&S e innovazione, Transizione 5.0, patent box, Nuova Sabatini: requisiti e rischi di recupero."
+fonti_it = "L. 160/2019 art. 1 cc. 198-209; D.L. 19/2024 art. 38; D.L. 146/2021 art. 6; MIMIT"
+
+[[skill]]
+ref = "fisco:corrispettivi-telematici"
+dipartimento = "finance"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "fisco"
+motivo = "Memorizzazione e invio dei corrispettivi per il retail e l'e-commerce B2C."
+fonti_it = "D.Lgs. 127/2015 art. 2; provv. Agenzia Entrate"
+
+[[skill]]
+ref = "fisco:f24-e-scadenzario-fiscale"
+dipartimento = "finance"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "fisco"
+motivo = "Calendario versamenti, compensazioni, ravvedimento operoso."
+fonti_it = "D.Lgs. 241/1997; D.Lgs. 472/1997 art. 13; scadenzario Agenzia Entrate"
+
+[[skill]]
+ref = "fisco:iva"
+dipartimento = "finance"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "fisco"
+motivo = "Aliquote, esigibilità, reverse charge, split payment, liquidazioni e dichiarazione IVA."
+fonti_it = "D.P.R. 633/1972; Dir. 2006/112/CE; Agenzia delle Entrate"
+
+[[skill]]
+ref = "fisco:regime-forfettario"
+dipartimento = "finance"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "fisco"
+motivo = "Requisiti, soglie, coefficienti di redditività, cause ostative e uscita dal regime."
+fonti_it = "L. 190/2014 art. 1 cc. 54-89 e succ. modifiche"
+
+[[skill]]
+ref = "it-operations:backup-and-recovery"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Backup, immutabilità e test di restore sono tecnica."
+fonti_it = "Nota: linee guida ACN"
+
+[[skill]]
+ref = "it-operations:chief-information-officer"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo CIO universale."
+
+[[skill]]
+ref = "it-operations:cloud-administration"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Fonti già globali (Well-Architected, CIS)."
+
+[[skill]]
+ref = "it-operations:collaboration-platform-administration"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Configurazione tenant e dominio è tecnica."
+
+[[skill]]
+ref = "it-operations:endpoint-management"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "MDM e patching sono tecnica."
+
+[[skill]]
+ref = "it-operations:identity-lifecycle-administration"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Joiner/mover/leaver e SCIM sono standard globali."
+
+[[skill]]
+ref = "it-operations:it-asset-management"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Ciclo di vita asset universale."
+fonti_it = "Nota: RAEE per lo smaltimento (D.Lgs. 49/2014)"
+
+[[skill]]
+ref = "it-operations:network-administration"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Rete, DNS, segmentazione sono tecnica."
+
+[[skill]]
+ref = "it-operations:service-desk"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Processo di service desk universale."
+
+[[skill]]
+ref = "it-operations:systems-administration"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Patching e baseline sono tecnica."
+
+[[skill]]
+ref = "it-operations:telephony-and-conferencing"
+dipartimento = "it-operations"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Obblighi E911/Kari's Law sono USA; in Italia valgono NUE 112 e regole AGCOM."
+fonti_it = "D.Lgs. 259/2003 Codice comunicazioni elettroniche; NUE 112; delibere AGCOM"
+
+[[skill]]
+ref = "it-operations:virtualization-operations"
+dipartimento = "it-operations"
+stato = "universale"
+livello = "core"
+motivo = "Hypervisor e capacità sono tecnica."
+
+[[skill]]
+ref = "legal-risk:chief-legal-and-risk-officer"
+dipartimento = "legal-risk"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Rimanda a eCFR, US Code e Cornell LII; le fonti primarie diventano Normattiva ed EUR-Lex."
+fonti_it = "Normattiva (normattiva.it); EUR-Lex; Gazzetta Ufficiale"
+
+[[skill]]
+ref = "legal-risk:codice-del-consumo"
+dipartimento = "legal-risk"
+stato = "da-creare"
+livello = "core"
+motivo = "Informazioni precontrattuali, recesso, garanzia legale, pratiche commerciali scorrette per e-commerce."
+fonti_it = "D.Lgs. 206/2005; Dir. UE 2019/2161; Dir. UE 2019/771; AGCM"
+
+[[skill]]
+ref = "legal-risk:contract-review"
+dipartimento = "legal-risk"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Clausole e rimedi seguono il codice civile italiano, incluse le clausole vessatorie."
+fonti_it = "Codice civile artt. 1321-1469, 1341-1342; Reg. UE 2016/679 art. 28 (DPA); D.Lgs. 231/2002 (ritardi di pagamento)"
+
+[[skill]]
+ref = "legal-risk:corporate-governance"
+dipartimento = "legal-risk"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Delaware/NYSE non applicabili; organi, verbali e deleghe secondo codice civile."
+fonti_it = "Codice civile artt. 2363-2409 e 2475-2479-bis; Registro imprese"
+
+[[skill]]
+ref = "legal-risk:cyber-resilience-act"
+dipartimento = "legal-risk"
+stato = "da-creare"
+livello = "core"
+motivo = "Obblighi per chi mette sul mercato software: SBOM, gestione vulnerabilità, marcatura CE."
+fonti_it = "Reg. UE 2024/2847"
+
+[[skill]]
+ref = "legal-risk:digital-services-act"
+dipartimento = "legal-risk"
+stato = "da-creare"
+livello = "core"
+motivo = "Obblighi per piattaforme e marketplace: notice and action, trasparenza pubblicitaria, termini."
+fonti_it = "Reg. UE 2022/2065; AGCOM come coordinatore nazionale"
+
+[[skill]]
+ref = "legal-risk:disputes-and-legal-holds"
+dipartimento = "legal-risk"
+stato = "da-localizzare"
+livello = "core"
+motivo = "FRCP e discovery USA non esistono in Italia; servono c.p.c., mediazione e conservazione."
+fonti_it = "Codice di procedura civile; D.Lgs. 28/2010 (mediazione); D.Lgs. 82/2005 CAD (conservazione)"
+
+[[skill]]
+ref = "legal-risk:enterprise-risk"
+dipartimento = "legal-risk"
+stato = "universale"
+livello = "core"
+motivo = "Registro dei rischi e COSO sono universali."
+fonti_it = "Nota: collegare a modello 231"
+
+[[skill]]
+ref = "legal-risk:eu-ai-act-compliance"
+dipartimento = "legal-risk"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 365
+motivo = "Classificazione del rischio, obblighi per deployer e provider, trasparenza, alfabetizzazione IA."
+fonti_it = "Reg. UE 2024/1689; L. 132/2025; AI Office della Commissione"
+
+[[skill]]
+ref = "legal-risk:european-accessibility-act"
+dipartimento = "legal-risk"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 365
+motivo = "Prodotti e servizi soggetti, requisiti, dichiarazione di accessibilità, esenzione microimprese."
+fonti_it = "Dir. UE 2019/882; D.Lgs. 82/2022; EN 301 549; linee guida AgID"
+
+[[skill]]
+ref = "legal-risk:gdpr-prassi-garante"
+dipartimento = "legal-risk"
+stato = "da-creare"
+livello = "core"
+motivo = "Registro dei trattamenti, DPIA, DPO, provvedimenti e sanzioni del Garante su casi tipici delle PMI."
+fonti_it = "Reg. UE 2016/679; D.Lgs. 196/2003; provvedimenti e FAQ Garante; linee guida EDPB"
+
+[[skill]]
+ref = "legal-risk:intellectual-property"
+dipartimento = "legal-risk"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Marchi e diritto d'autore passano da USPTO a UIBM/EUIPO e legge italiana."
+fonti_it = "D.Lgs. 30/2005 (CPI); L. 633/1941; Reg. UE 2017/1001 marchio UE; UIBM, EUIPO"
+
+[[skill]]
+ref = "legal-risk:modello-231-e-whistleblowing"
+dipartimento = "legal-risk"
+stato = "da-creare"
+livello = "core"
+motivo = "Responsabilità dell'ente, modello organizzativo, OdV e canale di segnalazione."
+fonti_it = "D.Lgs. 231/2001; D.Lgs. 24/2023; linee guida ANAC"
+
+[[skill]]
+ref = "legal-risk:nis2-compliance"
+dipartimento = "legal-risk"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 365
+motivo = "Verifica se si è soggetti, registrazione ACN, misure di base, notifiche, responsabilità degli organi."
+fonti_it = "Dir. UE 2022/2555; D.Lgs. 138/2024; determinazioni ACN"
+
+[[skill]]
+ref = "legal-risk:privacy-and-data-protection"
+dipartimento = "legal-risk"
+stato = "localizzata"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 365
+motivo = "Già GDPR ma va integrata con Codice privacy e provvedimenti del Garante; togliere il CCPA."
+fonti_it = "Reg. UE 2016/679; D.Lgs. 196/2003 e 101/2018; provvedimenti Garante (garanteprivacy.it); EDPB"
+
+[[skill]]
+ref = "legal-risk:regulatory-compliance"
+dipartimento = "legal-risk"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Mappa obblighi su FedRAMP/OSHA/eCFR; per UE servono NIS2, CRA, DORA, AI Act."
+fonti_it = "D.Lgs. 138/2024 (NIS2); Reg. UE 2024/2847 (CRA); Reg. UE 2022/2554 (DORA); Reg. UE 2024/1689"
+
+[[skill]]
+ref = "marketing:behavioral-marketing"
+dipartimento = "marketing"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Le leve psicologiche incontrano i limiti UE su dark pattern e pratiche aggressive."
+fonti_it = "D.Lgs. 206/2005 artt. 24-26; Reg. UE 2022/2065 (DSA) art. 25; linee guida EDPB 03/2022 dark pattern"
+
+[[skill]]
+ref = "marketing:brand-voice"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Stile di scrittura, nessun contenuto normativo."
+
+[[skill]]
+ref = "marketing:chief-content-officer"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Operations di contenuto universali."
+
+[[skill]]
+ref = "marketing:chief-marketing-officer"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo CMO universale; i limiti pubblicitari stanno nelle skill operative."
+
+[[skill]]
+ref = "marketing:content-strategy"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Strategia editoriale è metodo."
+
+[[skill]]
+ref = "marketing:customer-research"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Interviste e survey sono metodo."
+fonti_it = "Nota: informativa GDPR ai partecipanti"
+
+[[skill]]
+ref = "marketing:events-and-field-marketing"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Pianificazione eventi universale."
+
+[[skill]]
+ref = "marketing:marketing-campaign-planner"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Campagne multicanale sono metodo."
+
+[[skill]]
+ref = "marketing:marketing-copywriting"
+dipartimento = "marketing"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Claim, prezzi e comparativa seguono Codice del consumo e IAP, non le guide FTC."
+fonti_it = "D.Lgs. 206/2005; D.Lgs. 145/2007 (pubblicità comparativa); Codice di Autodisciplina IAP"
+
+[[skill]]
+ref = "marketing:marketing-planning"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Piano di marketing è metodo."
+
+[[skill]]
+ref = "marketing:newsletter-writer"
+dipartimento = "marketing"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Iscrizione, consenso e disiscrizione seguono art. 130 Codice privacy."
+fonti_it = "D.Lgs. 196/2003 art. 130; Reg. UE 2016/679 art. 7"
+
+[[skill]]
+ref = "marketing:partnership-marketing"
+dipartimento = "marketing"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Influencer e co-marketing: in Italia regole AGCOM e Digital Chart IAP."
+fonti_it = "Delibera AGCOM 7/24/CONS (influencer); Digital Chart IAP; D.Lgs. 206/2005"
+
+[[skill]]
+ref = "marketing:positioning-and-messaging"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Posizionamento è metodo."
+
+[[skill]]
+ref = "marketing:product-launch"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Tiering e readiness del lancio sono metodo."
+
+[[skill]]
+ref = "marketing:public-relations"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Ufficio stampa e crisi sono metodo."
+
+[[skill]]
+ref = "marketing:social-post-craft"
+dipartimento = "marketing"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Disclosure dei contenuti sponsorizzati segue AGCOM/IAP."
+fonti_it = "Delibera AGCOM 7/24/CONS; Digital Chart IAP"
+
+[[skill]]
+ref = "marketing:video-content"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Script e packaging sono craft; disclosure rimanda a social-post-craft."
+
+[[skill]]
+ref = "marketing:visual-content"
+dipartimento = "marketing"
+stato = "universale"
+livello = "core"
+motivo = "Design di asset visivi, WCAG già globale."
+
+[[skill]]
+ref = "marketing:youtube-producer"
+dipartimento = "marketing"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Creator sopra soglia sono soggetti alle regole AGCOM per influencer."
+fonti_it = "Delibera AGCOM 7/24/CONS; D.Lgs. 208/2021 (TUSMA)"
+
+[[skill]]
+ref = "operations:business-continuity-and-resilience"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "BIA e RTO/RPO sono metodo; ISO 22301 globale."
+fonti_it = "Nota: obblighi NIS2 se soggetto"
+
+[[skill]]
+ref = "operations:capacity-and-demand-planning"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Bilanciare capacità e domanda è metodo."
+
+[[skill]]
+ref = "operations:chief-operating-officer"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo COO universale."
+
+[[skill]]
+ref = "operations:facilities-and-workplace"
+dipartimento = "operations"
+stato = "da-localizzare"
+livello = "core"
+motivo = "OSHA e ADA vanno sostituiti dal Testo unico sicurezza (DVR, RSPP) e norme italiane."
+fonti_it = "D.Lgs. 81/2008; D.M. 3/9/2021 antincendio; L. 13/1989 barriere architettoniche"
+
+[[skill]]
+ref = "operations:incident-management"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Incident command è metodo."
+
+[[skill]]
+ref = "operations:operating-cadence"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Ritmo di review è metodo."
+
+[[skill]]
+ref = "operations:process-design"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Mappatura e redesign di processo universali."
+
+[[skill]]
+ref = "operations:procurement-and-sourcing"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Acquisti tra privati sono metodo; il lato appalti pubblici va nel nuovo dipartimento PA."
+fonti_it = "Vedi pa:codice-appalti"
+
+[[skill]]
+ref = "operations:quality-management"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "ISO 9001 globale."
+
+[[skill]]
+ref = "operations:service-level-management"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "SLA e misura sono metodo."
+
+[[skill]]
+ref = "operations:supply-chain-and-logistics"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Scorte e lead time sono metodo; Incoterms globali."
+fonti_it = "Nota: Codice doganale UE (Reg. UE 952/2013)"
+
+[[skill]]
+ref = "operations:vendor-management"
+dipartimento = "operations"
+stato = "universale"
+livello = "core"
+motivo = "Gestione fornitori è metodo."
+fonti_it = "Nota: supply chain NIS2 e art. 28 GDPR"
+
+[[skill]]
+ref = "appalti:codice-appalti"
+dipartimento = "pa"
+stato = "nuova"
+livello = "pro"
+pacchetto = "appalti"
+revisione = "2026-10-03"
+validita_giorni = 180
+motivo = "Procedure sotto e sopra soglia, affidamento diretto, requisiti, offerta, soccorso istruttorio, contratto."
+fonti_it = "D.Lgs. 36/2023 e correttivo D.Lgs. 209/2024; ANAC"
+
+[[skill]]
+ref = "appalti:fatturazione-verso-pa"
+dipartimento = "pa"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "appalti"
+motivo = "FatturaPA verso enti, codice univoco ufficio, CIG/CUP, split payment, tracciabilità flussi."
+fonti_it = "D.M. 55/2013; L. 136/2010 art. 3; D.P.R. 633/1972 art. 17-ter"
+
+[[skill]]
+ref = "appalti:fondi-pnrr-e-bandi"
+dipartimento = "pa"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "appalti"
+motivo = "Partecipare a bandi e misure PA digitale, rendicontazione, principio DNSH."
+fonti_it = "italiadomani.gov.it; PA digitale 2026 (padigitale2026.gov.it)"
+
+[[skill]]
+ref = "appalti:mepa-e-consip"
+dipartimento = "pa"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "appalti"
+motivo = "Abilitazione e cataloghi su MePA, RdO, trattativa diretta, convenzioni e accordi quadro."
+fonti_it = "acquistinretepa.it; D.Lgs. 36/2023 art. 62; L. 296/2006 art. 1 c. 450"
+
+[[skill]]
+ref = "appalti:requisiti-e-documentazione-gara"
+dipartimento = "pa"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "appalti"
+motivo = "DGUE, requisiti generali e speciali, DURC, FVOE, garanzie e CIG."
+fonti_it = "D.Lgs. 36/2023 artt. 94-106; ANAC FVOE; INPS DURC"
+
+[[skill]]
+ref = "pa:accessibilita-pa"
+dipartimento = "pa"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 180
+motivo = "Requisiti, dichiarazione di accessibilità e meccanismo di feedback per siti e app della PA."
+fonti_it = "L. 4/2004 (Legge Stanca); linee guida AgID accessibilità; EN 301 549"
+
+[[skill]]
+ref = "pa:cloud-qualificato-pa"
+dipartimento = "pa"
+stato = "da-creare"
+livello = "core"
+motivo = "Qualificazione dei servizi cloud per la PA e classificazione di dati e servizi."
+fonti_it = "Regolamento ACN cloud (determinazioni ACN); Strategia Cloud Italia"
+
+[[skill]]
+ref = "pa:design-servizi-pubblici"
+dipartimento = "pa"
+stato = "da-creare"
+livello = "core"
+motivo = "Modelli Designers Italia e Bootstrap Italia per siti di comuni, scuole e ASL."
+fonti_it = "designers.italia.it; linee guida AgID design servizi digitali"
+
+[[skill]]
+ref = "pa:head-of-public-sector"
+dipartimento = "pa"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 180
+motivo = "Charter del dipartimento PA: quando vendere alla PA, cosa serve prima di partecipare, confini con legal-risk."
+fonti_it = "D.Lgs. 36/2023; Piano triennale per l'informatica nella PA (AgID)"
+
+[[skill]]
+ref = "pa:linee-guida-agid-sviluppo"
+dipartimento = "pa"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 180
+motivo = "Acquisizione e riuso del software, publiccode.yml, sicurezza nello sviluppo, interoperabilità."
+fonti_it = "D.Lgs. 82/2005 CAD artt. 68-69; linee guida AgID acquisizione e riuso; ModI interoperabilità"
+
+[[skill]]
+ref = "pa:piattaforme-abilitanti"
+dipartimento = "pa"
+stato = "nuova"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 180
+motivo = "Integrazione SPID, CIE, pagoPA, App IO, PDND."
+fonti_it = "D.Lgs. 82/2005 CAD; docs.italia.it; developers.italia.it"
+
+[[skill]]
+ref = "lavoro:ccnl-e-inquadramento"
+dipartimento = "people"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "lavoro"
+motivo = "Scelta e applicazione del CCNL, livelli, minimi, scatti e mansioni."
+fonti_it = "Archivio CCNL CNEL; art. 2103 c.c.; CCNL Metalmeccanico/Commercio"
+
+[[skill]]
+ref = "lavoro:tfr-e-previdenza-complementare"
+dipartimento = "people"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "lavoro"
+motivo = "Maturazione, rivalutazione, anticipi e destinazione del TFR ai fondi."
+fonti_it = "Art. 2120 c.c.; D.Lgs. 252/2005; INPS Fondo Tesoreria"
+
+[[skill]]
+ref = "lavoro:welfare-aziendale"
+dipartimento = "people"
+stato = "da-creare"
+livello = "pro"
+pacchetto = "lavoro"
+motivo = "Fringe benefit, piani welfare e premi di risultato detassati."
+fonti_it = "TUIR art. 51; L. 208/2015 art. 1 cc. 182-190"
+
+[[skill]]
+ref = "people:benefits-and-leave"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "FMLA, ERISA, COBRA sono USA; in Italia ferie, permessi, congedi, previdenza e welfare."
+fonti_it = "D.Lgs. 66/2003 (orario e ferie); D.Lgs. 151/2001 (congedi parentali); TUIR art. 51 (welfare); CCNL applicato"
+
+[[skill]]
+ref = "people:chief-human-resources-officer"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "L'impianto HR italiano ruota su CCNL e Statuto dei lavoratori."
+fonti_it = "L. 300/1970 Statuto dei lavoratori; CCNL (archivio CNEL)"
+
+[[skill]]
+ref = "people:compensation-and-leveling"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Bande retributive vincolate da minimi e livelli CCNL, più la direttiva UE sulla trasparenza salariale."
+fonti_it = "CCNL applicato (archivio CNEL); Dir. UE 2023/970 trasparenza retributiva"
+
+[[skill]]
+ref = "people:employee-relations"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Procedure disciplinari e licenziamenti seguono Statuto e normativa italiana, non EEOC/NLRB."
+fonti_it = "L. 300/1970 art. 7; L. 604/1966; D.Lgs. 23/2015; D.Lgs. 24/2023 whistleblowing"
+
+[[skill]]
+ref = "people:employment-compliance"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Interamente USA (FLSA, I-9); va riscritta su subordinazione, orario e collaborazioni."
+fonti_it = "D.Lgs. 81/2015; D.Lgs. 66/2003; art. 2094 c.c.; Ispettorato Nazionale del Lavoro"
+
+[[skill]]
+ref = "people:hiring-and-interviewing"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Divieto di indagini sulle opinioni, pari opportunità e AI ad alto rischio nel recruiting."
+fonti_it = "L. 300/1970 art. 8; D.Lgs. 276/2003 art. 10; D.Lgs. 198/2006; Reg. UE 2024/1689 All. III"
+
+[[skill]]
+ref = "people:lavoro-agile"
+dipartimento = "people"
+stato = "da-creare"
+livello = "core"
+motivo = "Accordi di smart working, comunicazioni, diritto alla disconnessione, sicurezza."
+fonti_it = "L. 81/2017 artt. 18-24; Protocollo nazionale lavoro agile 2021"
+
+[[skill]]
+ref = "people:learning-and-development"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Formazione obbligatoria sicurezza e fondi interprofessionali sono specifici italiani."
+fonti_it = "D.Lgs. 81/2008 art. 37; Accordo Stato-Regioni formazione; fondi interprofessionali (L. 388/2000)"
+
+[[skill]]
+ref = "people:onboarding-and-offboarding"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "I-9 sostituito da comunicazione UniLav, consegna documenti e dimissioni telematiche."
+fonti_it = "Comunicazione obbligatoria UniLav; D.Lgs. 104/2022 (decreto trasparenza); dimissioni telematiche D.Lgs. 151/2015"
+
+[[skill]]
+ref = "people:org-design"
+dipartimento = "people"
+stato = "universale"
+livello = "core"
+motivo = "Span, layer e confini di team sono metodo; l'inquadramento rimanda a ccnl-e-inquadramento."
+
+[[skill]]
+ref = "people:payroll-operations"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Cedolino, contributi e conguagli sono interamente italiani."
+fonti_it = "INPS; INAIL; TUIR; Certificazione Unica e modello 770 (Agenzia Entrate); LUL (D.L. 112/2008)"
+
+[[skill]]
+ref = "people:performance-management"
+dipartimento = "people"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Valutazione e monitoraggio toccano il controllo a distanza e la procedura disciplinare."
+fonti_it = "L. 300/1970 artt. 4 e 7; Reg. UE 2016/679 art. 88"
+
+[[skill]]
+ref = "people:sicurezza-sul-lavoro"
+dipartimento = "people"
+stato = "da-creare"
+livello = "core"
+motivo = "DVR, RSPP, medico competente, formazione e ruoli per una software house."
+fonti_it = "D.Lgs. 81/2008; INAIL"
+
+[[skill]]
+ref = "people:tipologie-contrattuali"
+dipartimento = "people"
+stato = "da-creare"
+livello = "core"
+motivo = "Tempo indeterminato e determinato, apprendistato, part-time, collaborazioni, P.IVA e somministrazione."
+fonti_it = "D.Lgs. 81/2015; D.L. 87/2018; art. 409 c.p.c.; L. 81/2017"
+
+[[skill]]
+ref = "people:workforce-planning"
+dipartimento = "people"
+stato = "universale"
+livello = "core"
+motivo = "Domanda di ruoli e build-vs-buy sono metodo."
+
+[[skill]]
+ref = "pmo:benefits-realization"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Metodo di benefici, fonte UK Green Book già non USA."
+
+[[skill]]
+ref = "pmo:change-and-adoption"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Gestione del cambiamento è metodo."
+
+[[skill]]
+ref = "pmo:dependency-and-risk-management"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Rischi e dipendenze di progetto sono metodo."
+
+[[skill]]
+ref = "pmo:estimating-and-contingency"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Stima e contingency sono metodo."
+
+[[skill]]
+ref = "pmo:head-of-pmo"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo PMO universale."
+
+[[skill]]
+ref = "pmo:portfolio-governance"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Stage gate e priorità sono metodo."
+
+[[skill]]
+ref = "pmo:program-management"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Gestione programma universale."
+
+[[skill]]
+ref = "pmo:project-delivery"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Gestione progetto universale."
+
+[[skill]]
+ref = "pmo:schedule-development-and-analysis"
+dipartimento = "pmo"
+stato = "universale"
+livello = "core"
+motivo = "Critical path e float sono metodo."
+
+[[skill]]
+ref = "product:brand-identity"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Linee guida visive sono craft; la tutela del marchio rimanda a legal-risk."
+
+[[skill]]
+ref = "product:chief-product-officer"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo CPO universale."
+
+[[skill]]
+ref = "product:design-styles"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Direzione visiva, nessun contenuto normativo."
+
+[[skill]]
+ref = "product:design-system"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Token e componenti, WCAG/ARIA globali."
+fonti_it = "Nota: per la PA Designers Italia"
+
+[[skill]]
+ref = "product:interface-craft"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Qualità visiva e di interazione; i riferimenti California vanno solo sostituiti con quelli UE nelle note."
+
+[[skill]]
+ref = "product:interface-redesign"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Audit e upgrade di interfaccia sono craft."
+
+[[skill]]
+ref = "product:presentation-design"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Struttura di deck, universale."
+
+[[skill]]
+ref = "product:product-discovery"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Discovery e interviste sono metodo."
+
+[[skill]]
+ref = "product:product-requirements"
+dipartimento = "product"
+stato = "da-localizzare"
+livello = "core"
+motivo = "I requisiti di conformità citati (Section 508, ROSCA, COPPA) diventano EAA, Codice del consumo e GDPR."
+fonti_it = "Dir. UE 2019/882 (EAA) e D.Lgs. 82/2022; D.Lgs. 206/2005 artt. 49-59 (recesso); EN 301 549"
+
+[[skill]]
+ref = "product:ux-product-auditor"
+dipartimento = "product"
+stato = "da-localizzare"
+livello = "core"
+motivo = "L'audit di accessibilità deve verificare EAA ed EN 301 549, e per la PA le linee guida AgID."
+fonti_it = "Dir. UE 2019/882; D.Lgs. 82/2022; EN 301 549; L. 4/2004 e linee guida AgID accessibilità"
+
+[[skill]]
+ref = "product:visual-reference-generation"
+dipartimento = "product"
+stato = "universale"
+livello = "core"
+motivo = "Generazione di concept visivi, universale."
+
+[[skill]]
+ref = "revenue:activation"
+dipartimento = "revenue"
+stato = "universale"
+livello = "core"
+motivo = "Onboarding prodotto e time-to-value sono metodo."
+
+[[skill]]
+ref = "revenue:chief-revenue-officer"
+dipartimento = "revenue"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo CRO universale."
+
+[[skill]]
+ref = "revenue:deal-negotiation"
+dipartimento = "revenue"
+stato = "da-localizzare"
+livello = "core"
+motivo = "UCC e ESIGN sono USA; contratti e firma secondo codice civile ed eIDAS."
+fonti_it = "Codice civile artt. 1321 ss.; Reg. UE 910/2014 (eIDAS); D.Lgs. 82/2005 CAD"
+
+[[skill]]
+ref = "revenue:outbound-prospecting"
+dipartimento = "revenue"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Cold email e telefonate: Registro delle opposizioni, art. 130, legittimo interesse B2B."
+fonti_it = "D.Lgs. 196/2003 art. 130; D.P.R. 26/2022 (RPO); L. 5/2018; Reg. UE 2016/679 art. 21"
+
+[[skill]]
+ref = "revenue:pricing-and-packaging"
+dipartimento = "revenue"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Prezzi B2C IVA inclusa, prezzo precedente nelle promozioni e rinnovo automatico seguono regole UE."
+fonti_it = "D.Lgs. 206/2005 artt. 14-17-bis; Dir. UE 2019/2161 (Omnibus); D.P.R. 633/1972"
+
+[[skill]]
+ref = "revenue:referral-programs"
+dipartimento = "revenue"
+stato = "universale"
+livello = "core"
+motivo = "Meccanica dei referral è metodo; disclosure rimanda a partnership-marketing."
+fonti_it = "Nota: concorsi a premio D.P.R. 430/2001"
+
+[[skill]]
+ref = "revenue:retention"
+dipartimento = "revenue"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Flussi di cancellazione e save offer toccano diritto di recesso e nuovo pulsante di recesso UE."
+fonti_it = "D.Lgs. 206/2005 artt. 52-59; Dir. UE 2023/2673 (pulsante di recesso)"
+
+[[skill]]
+ref = "revenue:revenue-operations"
+dipartimento = "revenue"
+stato = "universale"
+livello = "core"
+motivo = "CRM, routing e forecasting sono metodo; i riferimenti normativi stanno nelle skill collegate."
+
+[[skill]]
+ref = "revenue:sales-compensation-and-territory"
+dipartimento = "revenue"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Provvigioni e agenti in Italia hanno disciplina propria (agenzia, Enasarco, AEC)."
+fonti_it = "Codice civile artt. 1742-1753; Accordi Economici Collettivi; Fondazione Enasarco"
+
+[[skill]]
+ref = "revenue:sales-enablement"
+dipartimento = "revenue"
+stato = "universale"
+livello = "core"
+motivo = "Materiali di vendita sono craft."
+
+[[skill]]
+ref = "security:access-and-identity"
+dipartimento = "security"
+stato = "universale"
+livello = "core"
+motivo = "Authn/authz e privilegi sono tecnica; NIST resta un buon riferimento."
+
+[[skill]]
+ref = "security:chief-information-security-officer"
+dipartimento = "security"
+stato = "da-localizzare"
+livello = "core"
+motivo = "Il programma di sicurezza deve mappare gli obblighi NIS2 e le misure ACN, non FedRAMP."
+fonti_it = "D.Lgs. 138/2024 (NIS2); determinazioni ACN (acn.gov.it); Reg. UE 2024/2847 (CRA)"
+
+[[skill]]
+ref = "security:data-protection-and-encryption"
+dipartimento = "security"
+stato = "universale"
+livello = "core"
+motivo = "Cifratura e gestione chiavi sono tecnica."
+fonti_it = "Nota: art. 32 GDPR"
+
+[[skill]]
+ref = "security:detection-and-monitoring"
+dipartimento = "security"
+stato = "universale"
+livello = "core"
+motivo = "Logging e detection sono tecnica."
+fonti_it = "Nota: log amministratori di sistema (provv. Garante 27/11/2008)"
+
+[[skill]]
+ref = "security:incident-response"
+dipartimento = "security"
+stato = "localizzata"
+livello = "core"
+revisione = "2026-10-03"
+validita_giorni = 365
+fonti_usa_ammesse = ["nist-sp-800-61-incident-response", "cisa-kev"]
+motivo = "Tempi di notifica: 24h/72h al CSIRT Italia (NIS2) e 72h al Garante (GDPR)."
+fonti_it = "D.Lgs. 138/2024 art. 25; Reg. UE 2016/679 artt. 33-34; CSIRT Italia"
+
+[[skill]]
+ref = "security:security-architecture-review"
+dipartimento = "security"
+stato = "universale"
+livello = "core"
+motivo = "Review di sicurezza su OWASP/ASVS, globale."
+
+[[skill]]
+ref = "security:threat-modeling"
+dipartimento = "security"
+stato = "universale"
+livello = "core"
+motivo = "Threat modeling è metodo, fonti MITRE/OWASP globali."
+
+[[skill]]
+ref = "security:vulnerability-management"
+dipartimento = "security"
+stato = "universale"
+livello = "core"
+motivo = "Ciclo vulnerabilità è tecnica."
+fonti_it = "Nota: obblighi di segnalazione CRA dal 2026"
+
+[[skill]]
+ref = "technology:ai-workflow-architect"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:api-design"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:branch-and-worktree-workflow"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:chief-technology-officer"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ruolo CTO universale; l'AI Act è già citato."
+
+[[skill]]
+ref = "technology:cloud-infrastructure"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "IaC e rete cloud sono tecnica."
+fonti_it = "Nota: residenza dati UE"
+
+[[skill]]
+ref = "technology:code-review"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:completion-verification"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:data-migration"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:implementation-planning"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:observability-and-reliability"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:parallel-agent-delivery"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:prompt-optimizer"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:release-and-deployment"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:skill-authoring"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:solution-architecture"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:solution-exploration"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:systematic-debugging"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:technical-debt-management"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."
+
+[[skill]]
+ref = "technology:test-driven-development"
+dipartimento = "technology"
+stato = "universale"
+livello = "core"
+motivo = "Ingegneria del software, nessun contenuto normativo."

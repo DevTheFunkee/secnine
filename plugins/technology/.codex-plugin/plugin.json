@@ -1,11 +1,12 @@
 {
   "name": "technology",
-  "version": "1.0.0",
-  "description": "Architecture, engineering delivery, development discipline, debugging, review, and AI and automation systems.",
+  "version": "0.1.0",
+  "description": "Architettura, delivery del software, disciplina di sviluppo, debugging, code review e sistemi di IA e automazione.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "engineering",
@@ -19,7 +20,7 @@
     "displayName": "Technology",
     "category": "Productivity",
     "shortDescription": "Technology, as an installable department",
-    "longDescription": "Architecture, engineering delivery, development discipline, debugging, review, and AI and automation systems.",
-    "developerName": "Chris Brock"
+    "longDescription": "Architettura, delivery del software, disciplina di sviluppo, debugging, code review e sistemi di IA e automazione.",
+    "developerName": "Bitlore"
   }
 }
