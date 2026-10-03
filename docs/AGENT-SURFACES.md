@@ -176,6 +176,7 @@ scripts/**
 .claude-plugin/**
 README.md
 DISCLAIMER.md
+nextfeature/**
 ```
 
 Reviewers declare no surface. That is structural rather than a promise: `check` fails if a reviewer
