@@ -5,6 +5,12 @@ description: Designs and runs hiring — role definition, sourcing, interview lo
 
 # Hiring and interviewing
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Divieto di indagini sulle opinioni, pari opportunità e AI ad alto rischio nel recruiting.
+> Per gli obblighi usa invece: L. 300/1970 art. 8; D.Lgs. 276/2003 art. 10; D.Lgs. 198/2006; Reg. UE 2024/1689 All. III.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Define before sourcing
 
 Write, before posting anything:

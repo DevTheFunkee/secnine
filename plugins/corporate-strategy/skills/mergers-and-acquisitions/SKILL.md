@@ -5,6 +5,12 @@ description: Runs corporate development — deal thesis, target screening, valua
 
 # Mergers and acquisitions
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Soglie e notifiche antitrust citate sono USA (HSR); in Italia/UE cambiano soglie, autorità e golden power.
+> Per gli obblighi usa invece: L. 287/1990 (AGCM); Reg. CE 139/2004 concentrazioni; D.L. 21/2012 golden power; Reg. UE 2019/452 FDI.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 > Deal execution requires qualified legal, tax, and accounting advisers. This structures the
 > commercial thinking and identifies what needs specialist work; it does not substitute for it.
 

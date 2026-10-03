@@ -5,6 +5,12 @@ description: Manages cash and liquidity — cash forecasting, runway, working ca
 
 # Treasury and liquidity
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Il forecast di cassa deve includere scadenze F24, IVA e contributi italiani.
+> Per gli obblighi usa invece: D.Lgs. 241/1997 (F24); calendario fiscale Agenzia Entrate; D.Lgs. 14/2019 (allerta).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Profitable companies fail on cash. Earnings are an opinion arrived at through accruals; cash is a
 balance you either have on the day or do not.
 

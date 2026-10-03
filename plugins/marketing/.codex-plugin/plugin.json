@@ -1,11 +1,12 @@
 {
   "name": "marketing",
-  "version": "1.0.0",
-  "description": "Positioning, content strategy and production, social and video, brand voice, copywriting, PR, and partnerships.",
+  "version": "0.1.0",
+  "description": "Posizionamento, contenuti, brand voice, campagne, PR, eventi e lanci, con claim e disclosure secondo Codice del consumo, IAP e AGCOM.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "marketing",
@@ -19,7 +20,7 @@
     "displayName": "Marketing",
     "category": "Productivity",
     "shortDescription": "Marketing, as an installable department",
-    "longDescription": "Positioning, content strategy and production, social and video, brand voice, copywriting, PR, and partnerships.",
-    "developerName": "Chris Brock"
+    "longDescription": "Posizionamento, contenuti, brand voice, campagne, PR, eventi e lanci, con claim e disclosure secondo Codice del consumo, IAP e AGCOM.",
+    "developerName": "Bitlore"
   }
 }

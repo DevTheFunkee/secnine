@@ -1,0 +1,27 @@
+{
+  "name": "pa",
+  "version": "0.1.0",
+  "description": "Lavorare con la Pubblica Amministrazione italiana: quando conviene, cosa serve prima di una gara, linee guida AgID, piattaforme abilitanti (SPID, CIE, pagoPA, App IO, PDND) e accessibilit\u00e0.",
+  "author": {
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
+  },
+  "repository": "https://github.com/DevTheFunkee/secnine",
+  "license": "MIT",
+  "keywords": [
+    "pubblica-amministrazione",
+    "agid",
+    "appalti",
+    "spid",
+    "pagopa",
+    "accessibilita"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pubblica Amministrazione",
+    "category": "Productivity",
+    "shortDescription": "Pubblica Amministrazione, as an installable department",
+    "longDescription": "Lavorare con la Pubblica Amministrazione italiana: quando conviene, cosa serve prima di una gara, linee guida AgID, piattaforme abilitanti (SPID, CIE, pagoPA, App IO, PDND) e accessibilit\u00e0.",
+    "developerName": "Bitlore"
+  }
+}

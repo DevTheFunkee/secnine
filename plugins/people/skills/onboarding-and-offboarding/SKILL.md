@@ -5,6 +5,12 @@ description: Designs the joining and leaving experience — first-day readiness,
 
 # Onboarding and offboarding
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. I-9 sostituito da comunicazione UniLav, consegna documenti e dimissioni telematiche.
+> Per gli obblighi usa invece: Comunicazione obbligatoria UniLav; D.Lgs. 104/2022 (decreto trasparenza); dimissioni telematiche D.Lgs. 151/2015.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Both ends are cross-functional processes that fail at the handoffs. The failures are predictable,
 which means they are preventable by design rather than by diligence.
 

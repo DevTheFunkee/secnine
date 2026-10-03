@@ -1,11 +1,12 @@
 {
   "name": "legal-risk",
-  "version": "1.0.0",
-  "description": "Contract review, privacy and data protection, enterprise risk, corporate governance, compliance, and audit readiness. Reviewer-class: its findings are not overrulable by the department under review.",
+  "version": "0.1.0",
+  "description": "Privacy e GDPR con le prassi del Garante, NIS2, AI Act, accessibilit\u00e0, contratti, propriet\u00e0 intellettuale e rischio d'impresa. Reviewer: i suoi blocchi non sono scavalcabili.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "legal",
@@ -19,7 +20,7 @@
     "displayName": "Legal & Risk",
     "category": "Productivity",
     "shortDescription": "Legal & Risk, as an installable department",
-    "longDescription": "Contract review, privacy and data protection, enterprise risk, corporate governance, compliance, and audit readiness. Reviewer-class: its findings are not overrulable by the department under review.",
-    "developerName": "Chris Brock"
+    "longDescription": "Privacy e GDPR con le prassi del Garante, NIS2, AI Act, accessibilit\u00e0, contratti, propriet\u00e0 intellettuale e rischio d'impresa. Reviewer: i suoi blocchi non sono scavalcabili.",
+    "developerName": "Bitlore"
   }
 }

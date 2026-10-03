@@ -5,6 +5,12 @@ description: Designs quotas, territories and commission plans that produce the b
 
 # Sales compensation and territory
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Provvigioni e agenti in Italia hanno disciplina propria (agenzia, Enasarco, AEC).
+> Per gli obblighi usa invece: Codice civile artt. 1742-1753; Accordi Economici Collettivi; Fondazione Enasarco.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 A compensation plan is the clearest statement a company makes about what it actually wants. Reps
 will optimize it precisely, including in the ways you did not intend, and that is not a character
 flaw — it is the plan working.

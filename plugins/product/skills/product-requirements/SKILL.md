@@ -5,6 +5,12 @@ description: Writes down what is being built so a team can build it and know whe
 
 # Product requirements
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. I requisiti di conformità citati (Section 508, ROSCA, COPPA) diventano EAA, Codice del consumo e GDPR.
+> Per gli obblighi usa invece: Dir. UE 2019/882 (EAA) e D.Lgs. 82/2022; D.Lgs. 206/2005 artt. 49-59 (recesso); EN 301 549.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 A specification exists to prevent expensive rediscovery — of decisions already made, of scope
 already agreed, and of the edge cases that are found either now on a page or later in production.
 

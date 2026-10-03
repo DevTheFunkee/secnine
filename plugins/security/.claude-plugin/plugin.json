@@ -1,11 +1,12 @@
 {
   "name": "security",
-  "description": "Threat modeling, security architecture review, incident response, vulnerability management, and access and identity. Reviewer-class: blocking findings are not overrulable by the department under review.",
-  "version": "1.0.0",
+  "description": "Programma di sicurezza, threat modeling, vulnerabilità, identità, detection e risposta agli incidenti con le notifiche a CSIRT Italia e Garante. Reviewer: i suoi blocchi non sono scavalcabili.",
+  "version": "0.1.0",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "keywords": [
     "security",
     "appsec",

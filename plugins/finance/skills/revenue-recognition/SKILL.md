@@ -5,6 +5,12 @@ description: Determines when and how revenue is recognized — performance oblig
 
 # Revenue recognition
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. ASC 606 va sostituito da OIC 34 (o IFRS 15 per chi lo adotta).
+> Per gli obblighi usa invece: OIC 34 Ricavi; IFRS 15 (Reg. UE 2016/1905).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Cash received is not revenue earned. The gap between them is where deals get restructured after
 signature and where quarters get restated.
 

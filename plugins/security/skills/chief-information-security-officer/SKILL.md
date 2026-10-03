@@ -5,6 +5,12 @@ description: Owns the security posture of the organization — architecture, pro
 
 # Chief Information Security Officer
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Il programma di sicurezza deve mappare gli obblighi NIS2 e le misure ACN, non FedRAMP.
+> Per gli obblighi usa invece: D.Lgs. 138/2024 (NIS2); determinazioni ACN (acn.gov.it); Reg. UE 2024/2847 (CRA).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Reviewer class
 
 **This department is reviewer-class.** It reviews what other departments build, and its blocking

@@ -1,11 +1,12 @@
 {
   "name": "people",
-  "description": "Org design, hiring and interviewing, compensation and leveling, and workforce planning.",
-  "version": "1.0.0",
+  "description": "Organizzazione, selezione, onboarding, performance, compensi e relazioni di lavoro nel quadro di CCNL e Statuto dei lavoratori.",
+  "version": "0.1.0",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "keywords": [
     "people",
     "hr",

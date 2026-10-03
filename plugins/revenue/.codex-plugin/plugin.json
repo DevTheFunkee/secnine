@@ -1,11 +1,12 @@
 {
   "name": "revenue",
-  "version": "1.0.0",
-  "description": "Outbound, sales enablement, revenue operations, pricing and packaging, activation, retention, and referrals.",
+  "version": "0.1.0",
+  "description": "Vendite, pricing, negoziazione, attivazione, retention e revenue operations.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "sales",
@@ -19,7 +20,7 @@
     "displayName": "Revenue",
     "category": "Productivity",
     "shortDescription": "Revenue, as an installable department",
-    "longDescription": "Outbound, sales enablement, revenue operations, pricing and packaging, activation, retention, and referrals.",
-    "developerName": "Chris Brock"
+    "longDescription": "Vendite, pricing, negoziazione, attivazione, retention e revenue operations.",
+    "developerName": "Bitlore"
   }
 }

@@ -5,6 +5,12 @@ description: Maintains the corporate record and the governance machinery — ent
 
 # Corporate governance
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Delaware/NYSE non applicabili; organi, verbali e deleghe secondo codice civile.
+> Per gli obblighi usa invece: Codice civile artt. 2363-2409 e 2475-2479-bis; Registro imprese.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 The record of what the company decided, who was allowed to decide it, and what happens when
 something goes wrong. Unglamorous until it is the only thing that matters.
 

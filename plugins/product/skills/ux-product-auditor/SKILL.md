@@ -5,6 +5,12 @@ description: Audits a website, app, onboarding flow, or design for usability, co
 
 # UX and product auditor
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. L'audit di accessibilità deve verificare EAA ed EN 301 549, e per la PA le linee guida AgID.
+> Per gli obblighi usa invece: Dir. UE 2019/882; D.Lgs. 82/2022; EN 301 549; L. 4/2004 e linee guida AgID accessibilità.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 A finding that does not name a consequence is an opinion. Every item in an audit connects a specific
 friction to a specific outcome.
 

@@ -53,8 +53,10 @@ corporate-strategy   builder    installed  autonomous
 security             builder    installed  autonomous
 it-operations        builder    installed  autonomous
 pmo                  builder    installed  autonomous
+pa                   builder    installed  autonomous
 verticals            builder    installed  proposes
 sources              builder    installed  autonomous
+localization         builder    installed  proposes
 repo-meta            builder    installed  proposes
 legal-risk-review    reviewer   installed  autonomous
 security-review      reviewer   installed  autonomous
@@ -144,6 +146,14 @@ plugins/pmo/**
 plugins/security/**
 ```
 
+```surface:pa
+plugins/pa/**
+```
+
+```surface:localization
+localization/**
+```
+
 ```surface:verticals
 verticals/**
 ```
@@ -165,6 +175,7 @@ scripts/**
 .claude/**
 .claude-plugin/**
 README.md
+DISCLAIMER.md
 ```
 
 Reviewers declare no surface. That is structural rather than a promise: `check` fails if a reviewer

@@ -1,11 +1,12 @@
 {
   "name": "operations",
-  "version": "1.0.0",
-  "description": "Program management, process design, vendor and supplier management, and operational delivery.",
+  "version": "0.1.0",
+  "description": "Processi, capacit\u00e0, qualit\u00e0, fornitori, continuit\u00e0 operativa e luoghi di lavoro.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "operations",
@@ -18,7 +19,7 @@
     "displayName": "Operations",
     "category": "Productivity",
     "shortDescription": "Operations, as an installable department",
-    "longDescription": "Program management, process design, vendor and supplier management, and operational delivery.",
-    "developerName": "Chris Brock"
+    "longDescription": "Processi, capacit\u00e0, qualit\u00e0, fornitori, continuit\u00e0 operativa e luoghi di lavoro.",
+    "developerName": "Bitlore"
   }
 }

@@ -5,6 +5,12 @@ description: Reads a set of financial statements and establishes what changed an
 
 # Financial statement analysis
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Analisi su schemi US GAAP; va adattata agli schemi civilistici italiani.
+> Per gli obblighi usa invece: Codice civile artt. 2424-2425; OIC 12.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 The statements tell you what happened. Analysis tells you why, and whether it continues.
 
 ## Read the three statements against each other

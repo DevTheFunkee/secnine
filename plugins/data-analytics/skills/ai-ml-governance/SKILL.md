@@ -5,6 +5,12 @@ description: Governs models and AI systems in production — intended use, evalu
 
 # AI and ML governance
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Già cita l'AI Act ma il peso è su NIST/EEOC; serve la classificazione per rischio UE e la legge italiana sull'IA.
+> Per gli obblighi usa invece: Reg. UE 2024/1689 (AI Act); L. 132/2025 (legge italiana IA); linee guida AgID IA nella PA.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 > Regimes governing automated decision-making differ by jurisdiction and sector and are changing
 > quickly. Anything affecting credit, employment, housing, insurance, healthcare, or education
 > carries specific legal obligations — involve Legal & Risk and qualified counsel rather than

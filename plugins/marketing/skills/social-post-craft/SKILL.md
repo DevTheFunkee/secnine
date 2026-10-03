@@ -5,6 +5,12 @@ description: Writes, structures, and evaluates social posts end to end — hooks
 
 # Social post craft
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Disclosure dei contenuti sponsorizzati segue AGCOM/IAP.
+> Per gli obblighi usa invece: Delibera AGCOM 7/24/CONS; Digital Chart IAP.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## The hook decides everything
 
 Most posts are lost in the first line, before any of the substance is reached. The opening has one

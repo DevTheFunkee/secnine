@@ -5,6 +5,12 @@ description: Covers what the organization owns and what it is only borrowing —
 
 # Intellectual property
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Marchi e diritto d'autore passano da USPTO a UIBM/EUIPO e legge italiana.
+> Per gli obblighi usa invece: D.Lgs. 30/2005 (CPI); L. 633/1941; Reg. UE 2017/1001 marchio UE; UIBM, EUIPO.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Most IP damage is done quietly and early — by a name adopted without a search, a contractor
 agreement missing an assignment clause, or a dependency added without reading its license. All
 three are cheap to prevent and expensive to unwind.

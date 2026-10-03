@@ -1,11 +1,12 @@
 {
   "name": "finance",
-  "version": "1.0.0",
-  "description": "Financial modeling, budgeting and forecasting, unit economics, and financial decision support.",
+  "version": "0.1.0",
+  "description": "Modelli finanziari, budget e forecast, unit economics, chiusure e controllo, fatturazione elettronica via SDI.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "finance",
@@ -18,7 +19,7 @@
     "displayName": "Finance",
     "category": "Productivity",
     "shortDescription": "Finance, as an installable department",
-    "longDescription": "Financial modeling, budgeting and forecasting, unit economics, and financial decision support.",
-    "developerName": "Chris Brock"
+    "longDescription": "Modelli finanziari, budget e forecast, unit economics, chiusure e controllo, fatturazione elettronica via SDI.",
+    "developerName": "Bitlore"
   }
 }

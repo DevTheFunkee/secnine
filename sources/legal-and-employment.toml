@@ -135,7 +135,7 @@ url = "https://oag.ca.gov/privacy/ccpa"
 license = "public-domain"
 jurisdiction = "US-CA"
 authoritative_for = "The largest US state privacy regime, and the template several other states followed. Start here before generalizing about 'US state privacy law', which is not one thing."
-skills = ["legal-risk:privacy-and-data-protection", "data-analytics:data-governance"]
+skills = ["data-analytics:data-governance"]
 checked = "2026-09-16"
 
 [[source]]

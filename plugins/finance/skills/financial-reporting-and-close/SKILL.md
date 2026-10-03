@@ -5,6 +5,12 @@ description: Runs the period-end close and produces reporting — close calendar
 
 # Financial reporting and close
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Chiusura e bilancio seguono OIC e codice civile, con deposito al Registro imprese.
+> Per gli obblighi usa invece: Codice civile artt. 2423-2435-ter; principi OIC; deposito XBRL CCIAA.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 A close is a manufacturing process whose output is a number people will make decisions on. Treat it
 as a process — sequence, dependencies, quality control — and it gets faster and more accurate
 together, which sounds contradictory only if you think speed comes from cutting checks.

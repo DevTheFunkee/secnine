@@ -1,0 +1,153 @@
+# Fonti normative italiane ed europee per l'edizione EU/IT.
+#
+# Il punto da notare: i testi di legge italiani non sono protetti dal diritto d'autore (art. 5
+# L. 633/1941), quindi Normattiva e Gazzetta Ufficiale sono citabili e riproducibili; gli atti UE
+# su EUR-Lex sono riutilizzabili con attribuzione. Le pagine di Garante, ACN, AgID e Agenzia delle
+# Entrate sono invece contenuti editoriali dell'autorità: si leggono e si citano, non si copiano.
+#
+# Gli URL Normattiva usano il formato URN ufficiale (urn:nir:...) e quelli EUR-Lex il formato ELI,
+# che sono stabili per costruzione. Il controllo online settimanale (`sources.yml`) è la verifica
+# di raggiungibilità: dall'ambiente in cui sono stati scritti questi host non erano raggiungibili.
+
+[[source]]
+id = "normattiva-codice-privacy"
+title = "D.Lgs. 196/2003 — Codice in materia di protezione dei dati personali"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "Le norme italiane che integrano il GDPR come modificate dal D.Lgs. 101/2018: marketing diretto e soft spam (art. 130), età del consenso digitale a 14 anni (art. 2-quinquies), trattamenti in ambito lavorativo, sanzioni penali."
+skills = ["legal-risk:privacy-and-data-protection"]
+checked = "2026-10-03"
+
+[[source]]
+id = "garante-privacy"
+title = "Garante per la protezione dei dati personali — provvedimenti, linee guida e FAQ"
+publisher = "Garante per la protezione dei dati personali"
+url = "https://www.garanteprivacy.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Come l'autorità italiana applica il GDPR nei casi concreti: cookie, videosorveglianza, rapporto di lavoro, telemarketing, amministratori di sistema. È dove la lettura del regolamento smette di bastare."
+skills = ["legal-risk:privacy-and-data-protection", "security:incident-response"]
+checked = "2026-10-03"
+
+[[source]]
+id = "garante-data-breach"
+title = "Garante — notifica di una violazione dei dati personali"
+publisher = "Garante per la protezione dei dati personali"
+url = "https://www.garanteprivacy.it/regolamentoue/databreach"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Il canale e il modulo per notificare un data breach al Garante entro 72 ore (art. 33 GDPR), e quando va informato anche l'interessato (art. 34)."
+skills = ["legal-risk:privacy-and-data-protection", "security:incident-response"]
+checked = "2026-10-03"
+
+[[source]]
+id = "eur-lex-nis2"
+title = "Direttiva (UE) 2022/2555 — NIS2"
+publisher = "Publications Office of the European Union"
+url = "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+license = "attribution-required"
+jurisdiction = "EU"
+authoritative_for = "Il testo europeo della NIS2: settori, criteri dimensionali, misure di gestione del rischio (art. 21) e obblighi di notifica (art. 23). Utile per leggere il decreto italiano che la recepisce."
+skills = ["legal-risk:nis2-compliance", "security:incident-response"]
+checked = "2026-10-03"
+
+[[source]]
+id = "normattiva-dlgs-138-2024"
+title = "D.Lgs. 138/2024 — recepimento della direttiva NIS2"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "Chi è soggetto NIS in Italia, gli obblighi di registrazione, le misure di base, i termini di notifica degli incidenti al CSIRT Italia, la responsabilità degli organi di amministrazione e le sanzioni."
+skills = ["legal-risk:nis2-compliance", "security:incident-response"]
+checked = "2026-10-03"
+
+[[source]]
+id = "acn-nis"
+title = "ACN — portale NIS: registrazione, determinazioni e misure di base"
+publisher = "Agenzia per la Cybersicurezza Nazionale"
+url = "https://www.acn.gov.it/portale/nis"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Le determinazioni ACN che fissano tempi di registrazione, misure di sicurezza di base e modalità di notifica: sono atti attuativi che cambiano più spesso del decreto."
+skills = ["legal-risk:nis2-compliance"]
+checked = "2026-10-03"
+
+[[source]]
+id = "csirt-italia"
+title = "CSIRT Italia — notifica degli incidenti"
+publisher = "Agenzia per la Cybersicurezza Nazionale"
+url = "https://www.csirt.gov.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Dove e come si notifica un incidente significativo (preallarme, notifica, relazione finale) e gli avvisi sulle vulnerabilità sfruttate in Italia."
+skills = ["legal-risk:nis2-compliance", "security:incident-response"]
+checked = "2026-10-03"
+
+[[source]]
+id = "eur-lex-ai-act"
+title = "Regolamento (UE) 2024/1689 — AI Act"
+publisher = "Publications Office of the European Union"
+url = "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+license = "attribution-required"
+jurisdiction = "EU"
+authoritative_for = "Pratiche vietate (art. 5), sistemi ad alto rischio (art. 6 e allegato III), obblighi di fornitori e deployer, trasparenza (art. 50), alfabetizzazione (art. 4) e calendario di applicazione (art. 113)."
+skills = ["legal-risk:eu-ai-act-compliance"]
+checked = "2026-10-03"
+
+[[source]]
+id = "normattiva-legge-132-2025"
+title = "L. 132/2025 — disposizioni e deleghe in materia di intelligenza artificiale"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-09-23;132"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "Le regole italiane che si aggiungono all'AI Act: autorità nazionali (AgID e ACN), uso dell'IA nel lavoro, nelle professioni e nella PA, tutela dei minori e diritto d'autore."
+skills = ["legal-risk:eu-ai-act-compliance"]
+checked = "2026-10-03"
+
+[[source]]
+id = "ec-ai-office"
+title = "Commissione europea — AI Office"
+publisher = "European Commission"
+url = "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+license = "attribution-required"
+jurisdiction = "EU"
+authoritative_for = "Linee guida, codici di condotta e atti attuativi dell'AI Act, compresi gli eventuali rinvii delle scadenze: è qui che si vede se una data del regolamento è ancora quella in vigore."
+skills = ["legal-risk:eu-ai-act-compliance"]
+checked = "2026-10-03"
+
+[[source]]
+id = "eur-lex-eaa"
+title = "Direttiva (UE) 2019/882 — European Accessibility Act"
+publisher = "Publications Office of the European Union"
+url = "https://eur-lex.europa.eu/eli/dir/2019/882/oj"
+license = "attribution-required"
+jurisdiction = "EU"
+authoritative_for = "Prodotti e servizi soggetti, requisiti di accessibilità (allegato I), deroga per le microimprese che forniscono servizi e onere sproporzionato."
+skills = ["legal-risk:european-accessibility-act"]
+checked = "2026-10-03"
+
+[[source]]
+id = "normattiva-dlgs-82-2022"
+title = "D.Lgs. 82/2022 — attuazione della direttiva (UE) 2019/882"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2022-05-27;82"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "Il recepimento italiano dell'EAA: obblighi degli operatori economici, autorità di vigilanza (AgID per i servizi), sanzioni."
+skills = ["legal-risk:european-accessibility-act"]
+checked = "2026-10-03"
+
+[[source]]
+id = "eur-lex-cra"
+title = "Regolamento (UE) 2024/2847 — Cyber Resilience Act"
+publisher = "Publications Office of the European Union"
+url = "https://eur-lex.europa.eu/eli/reg/2024/2847/oj"
+license = "attribution-required"
+jurisdiction = "EU"
+authoritative_for = "Obblighi di chi mette sul mercato UE prodotti con elementi digitali, compresa la segnalazione delle vulnerabilità attivamente sfruttate."
+skills = ["legal-risk:nis2-compliance", "security:incident-response"]
+checked = "2026-10-03"

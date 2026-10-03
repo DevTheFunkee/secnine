@@ -5,6 +5,12 @@ description: Designs and runs employee benefits and leave — health and retirem
 
 # Benefits and leave
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. FMLA, ERISA, COBRA sono USA; in Italia ferie, permessi, congedi, previdenza e welfare.
+> Per gli obblighi usa invece: D.Lgs. 66/2003 (orario e ferie); D.Lgs. 151/2001 (congedi parentali); TUIR art. 51 (welfare); CCNL applicato.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Benefits are the second largest people cost after salary and the one employees judge most directly.
 `people:compensation-and-leveling` covers pay bands and leveling; this covers everything else in the
 package.

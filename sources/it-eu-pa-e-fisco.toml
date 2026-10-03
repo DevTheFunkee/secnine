@@ -1,0 +1,203 @@
+# Fonti per la Pubblica Amministrazione digitale e per la fatturazione elettronica.
+#
+# La PA italiana pubblica gran parte delle regole tecniche come documentazione (docs.italia.it,
+# developers.italia.it) invece che come norma: sono vincolanti perché il CAD rinvia alle linee guida
+# AgID, ma cambiano per versione. Citare sempre la versione letta.
+
+[[source]]
+id = "normattiva-cad"
+title = "D.Lgs. 82/2005 — Codice dell'Amministrazione Digitale (CAD)"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "La base di ogni obbligo digitale della PA: identità digitale (art. 64), pagamenti (art. 5), riuso e open source (artt. 68-69), linee guida AgID (art. 71)."
+skills = ["pa:head-of-public-sector", "pa:linee-guida-agid-sviluppo", "pa:piattaforme-abilitanti"]
+checked = "2026-10-03"
+
+[[source]]
+id = "normattiva-codice-contratti"
+title = "D.Lgs. 36/2023 — Codice dei contratti pubblici"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "Il testo vigente del Codice appalti, con il correttivo D.Lgs. 209/2024: soglie, affidamenti, requisiti, digitalizzazione del ciclo di vita dei contratti."
+skills = ["pa:head-of-public-sector"]
+checked = "2026-10-03"
+
+[[source]]
+id = "anac"
+title = "ANAC — Autorità Nazionale Anticorruzione"
+publisher = "ANAC"
+url = "https://www.anticorruzione.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Banca dati nazionale dei contratti pubblici, CIG, fascicolo virtuale dell'operatore economico (FVOE), bandi tipo e comunicati che chiariscono l'applicazione del Codice."
+skills = ["pa:head-of-public-sector"]
+checked = "2026-10-03"
+
+[[source]]
+id = "acquistinretepa"
+title = "Acquisti in rete PA — MePA, convenzioni e accordi quadro Consip"
+publisher = "Consip S.p.A."
+url = "https://www.acquistinretepa.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Come un fornitore si abilita al Mercato elettronico della PA e quali bandi e categorie sono attivi."
+skills = ["pa:head-of-public-sector"]
+checked = "2026-10-03"
+
+[[source]]
+id = "agid-piano-triennale"
+title = "AgID — Piano triennale per l'informatica nella PA"
+publisher = "Agenzia per l'Italia Digitale"
+url = "https://www.agid.gov.it/it/agenzia/piano-triennale"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Le priorità di spesa e gli obiettivi digitali delle amministrazioni per il triennio: dice cosa la PA comprerà e perché."
+skills = ["pa:head-of-public-sector"]
+checked = "2026-10-03"
+
+[[source]]
+id = "agid-riuso-software"
+title = "AgID — Linee guida su acquisizione e riuso di software per la PA"
+publisher = "Agenzia per l'Italia Digitale"
+url = "https://www.agid.gov.it/it/design-servizi/riuso-open-source/linee-guida-acquisizione-riuso-software-pa"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "La valutazione comparativa (art. 68 CAD), l'obbligo di rilascio in open source del software commissionato dalla PA e il file publiccode.yml."
+skills = ["pa:linee-guida-agid-sviluppo"]
+checked = "2026-10-03"
+
+[[source]]
+id = "agid-interoperabilita"
+title = "AgID — Modello di interoperabilità (ModI) e PDND"
+publisher = "Agenzia per l'Italia Digitale"
+url = "https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Le regole tecniche per esporre e consumare API tra amministrazioni: pattern di sicurezza, firma dei messaggi, catalogo su PDND."
+skills = ["pa:linee-guida-agid-sviluppo", "pa:piattaforme-abilitanti"]
+checked = "2026-10-03"
+
+[[source]]
+id = "developers-italia"
+title = "Developers Italia — documentazione tecnica, catalogo del riuso, SDK"
+publisher = "Dipartimento per la trasformazione digitale e AgID"
+url = "https://developers.italia.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Documentazione e SDK ufficiali per SPID, CIE, pagoPA, App IO e PDND, e il catalogo del software a riuso."
+skills = ["pa:linee-guida-agid-sviluppo", "pa:piattaforme-abilitanti"]
+checked = "2026-10-03"
+
+[[source]]
+id = "designers-italia"
+title = "Designers Italia — modelli e kit per i servizi pubblici digitali"
+publisher = "Dipartimento per la trasformazione digitale"
+url = "https://designers.italia.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "I modelli di sito per comuni, scuole e ASL, Bootstrap Italia e il design system .italia che i bandi PA richiedono di adottare."
+skills = ["pa:accessibilita-pa", "pa:linee-guida-agid-sviluppo"]
+checked = "2026-10-03"
+
+[[source]]
+id = "pagopa-developer"
+title = "pagoPA — portale sviluppatori (pagoPA, App IO, PDND, SEND)"
+publisher = "PagoPA S.p.A."
+url = "https://developer.pagopa.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Specifiche di integrazione e ambienti di collaudo delle piattaforme gestite da PagoPA."
+skills = ["pa:piattaforme-abilitanti"]
+checked = "2026-10-03"
+
+[[source]]
+id = "spid-regole-tecniche"
+title = "SPID — regole tecniche e avvisi"
+publisher = "Agenzia per l'Italia Digitale"
+url = "https://docs.italia.it/italia/spid/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Il profilo SAML e OpenID Connect di SPID, gli avvisi che lo modificano e i requisiti per un service provider."
+skills = ["pa:piattaforme-abilitanti"]
+checked = "2026-10-03"
+
+[[source]]
+id = "normattiva-legge-stanca"
+title = "L. 4/2004 — Legge Stanca sull'accessibilità degli strumenti informatici"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-01-09;4"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "Chi è obbligato all'accessibilità in Italia (PA e grandi imprese private), il rinvio alle linee guida AgID e le sanzioni."
+skills = ["pa:accessibilita-pa", "legal-risk:european-accessibility-act"]
+checked = "2026-10-03"
+
+[[source]]
+id = "agid-accessibilita"
+title = "AgID — linee guida accessibilità, dichiarazione e obiettivi annuali"
+publisher = "Agenzia per l'Italia Digitale"
+url = "https://www.agid.gov.it/it/design-servizi/accessibilita"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Requisiti tecnici (EN 301 549, WCAG richiamate), modello della dichiarazione di accessibilità, meccanismo di feedback e scadenze annuali per le amministrazioni."
+skills = ["pa:accessibilita-pa", "legal-risk:european-accessibility-act"]
+checked = "2026-10-03"
+
+[[source]]
+id = "agid-form"
+title = "AgID — piattaforma per dichiarazioni e obiettivi di accessibilità"
+publisher = "Agenzia per l'Italia Digitale"
+url = "https://form.agid.gov.it/"
+license = "registration-required"
+jurisdiction = "IT"
+authoritative_for = "Dove l'amministrazione pubblica la dichiarazione di accessibilità e gli obiettivi annuali; serve l'accesso dell'ente."
+skills = ["pa:accessibilita-pa"]
+checked = "2026-10-03"
+
+[[source]]
+id = "normattiva-dlgs-127-2015"
+title = "D.Lgs. 127/2015 — fatturazione elettronica e trasmissione telematica dei corrispettivi"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-08-05;127"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "L'obbligo generalizzato di fattura elettronica via SDI tra privati e le relative sanzioni."
+skills = ["finance:fatturazione-elettronica-sdi"]
+checked = "2026-10-03"
+
+[[source]]
+id = "normattiva-dpr-633-1972"
+title = "D.P.R. 633/1972 — istituzione e disciplina dell'IVA"
+publisher = "Istituto Poligrafico e Zecca dello Stato — Normattiva"
+url = "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1972-10-26;633"
+license = "public-domain"
+jurisdiction = "IT"
+authoritative_for = "Contenuto obbligatorio della fattura e termini di emissione (art. 21), fattura differita, split payment (art. 17-ter), reverse charge (art. 17)."
+skills = ["finance:fatturazione-elettronica-sdi"]
+checked = "2026-10-03"
+
+[[source]]
+id = "agenzia-entrate-fatture"
+title = "Agenzia delle Entrate — fatture e corrispettivi elettronici"
+publisher = "Agenzia delle Entrate"
+url = "https://www.agenziaentrate.gov.it/portale/web/guest/schede/comunicazioni/fatture-e-corrispettivi"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Specifiche tecniche correnti del tracciato FatturaPA (tipi documento, codici natura, controlli SDI), provvedimenti e servizio gratuito di conservazione."
+skills = ["finance:fatturazione-elettronica-sdi"]
+checked = "2026-10-03"
+
+[[source]]
+id = "fatturapa-sdi"
+title = "FatturaPA — documentazione del Sistema di Interscambio"
+publisher = "Agenzia delle Entrate — Sogei"
+url = "https://www.fatturapa.gov.it/"
+license = "free-to-read"
+jurisdiction = "IT"
+authoritative_for = "Canali di trasmissione (PEC, web service, SFTP), accreditamento, notifiche SDI e codici di errore degli scarti."
+skills = ["finance:fatturazione-elettronica-sdi"]
+checked = "2026-10-03"

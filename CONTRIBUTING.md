@@ -1,5 +1,8 @@
 # Contributing
 
+> SecNine è l'edizione IT/UE di headcount. Per localizzare una skill parti da
+> [docs/LOCALIZZAZIONE.md](docs/LOCALIZZAZIONE.md); il resto di questo documento vale come upstream.
+
 Contributions are welcome. This document covers the license, the bar for a skill, and the checks.
 
 ## License
@@ -59,7 +62,7 @@ Every check CI runs, in one script — the workflow calls this same file, so the
 | Provenance | No license headers, copyright notices, license-named files, or font assets |
 | Generated docs | README, social card and org chart match the tree |
 | Skill references | Every `department:skill` mentioned in the docs or in a skill body resolves |
-| US English spelling | No British spellings, by exact word form |
+| IT/EU localization | Registry matches the tree; localized skills carry a review date, the disclaimer link and an official IT/EU source; US-specific skills carry the banner |
 | `## Never` blocks | Bullets inside one block agree on terminal punctuation |
 | OpenAI/Codex manifests | The second set of manifests matches the Claude ones |
 | Source catalog | Structure, license vocabulary, and every skill it names resolves |
@@ -81,12 +84,12 @@ present.
 
 ## House style
 
-**US English.** The author writes in US English and the catalog does too — *license*, *program*,
-*catalog*, *behavior*, *prioritize*, *center*. `scripts/check-us-english.py` fails the build on
-British spellings and `--fix` rewrites them.
+**Language.** Universal skills stay in US English, as upstream, so fixes can travel both ways.
+Localized and new IT/EU skills are written in Italian, following `docs/LOCALIZZAZIONE.md`: review
+date line, disclaimer link, a `## Fonti` section and official sources in `sources/it-eu-*.toml`.
 
-The list is of exact word forms, not stems, because stems are a trap here: *analysis*, *analyst*,
-*specialist* and *realistic* are already correct US English and must never be rewritten.
+**Pro content stays out.** Skills for the private packages (`fisco`, `lavoro`, `appalti`) are never
+committed here, not even temporarily: git history is public forever.
 
 **A skill references only what it ships.** A skill is installed as part of its department plugin and
 nothing else comes with it, so a pointer to `docs/SOMETHING.md` resolves for a reader of this

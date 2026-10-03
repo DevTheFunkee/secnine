@@ -14,6 +14,46 @@ Machine-readable: <https://www.cisa.gov/sites/default/files/feeds/known_exploite
 
 **Authoritative for:** Which vulnerabilities are being exploited in the wild right now — the only list that reliably separates patch-this-week from patch-this-quarter.
 
+## CSIRT Italia — notifica degli incidenti
+
+Agenzia per la Cybersicurezza Nazionale · IT · **read and cite only — copyrighted, do not reproduce**
+
+<https://www.csirt.gov.it/>
+
+**Authoritative for:** Dove e come si notifica un incidente significativo (preallarme, notifica, relazione finale) e gli avvisi sulle vulnerabilità sfruttate in Italia.
+
+## D.Lgs. 138/2024 — recepimento della direttiva NIS2
+
+Istituto Poligrafico e Zecca dello Stato — Normattiva · IT · public domain — quote freely
+
+<https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138>
+
+**Authoritative for:** Chi è soggetto NIS in Italia, gli obblighi di registrazione, le misure di base, i termini di notifica degli incidenti al CSIRT Italia, la responsabilità degli organi di amministrazione e le sanzioni.
+
+## Direttiva (UE) 2022/2555 — NIS2
+
+Publications Office of the European Union · EU · free to use with attribution — credit the publisher
+
+<https://eur-lex.europa.eu/eli/dir/2022/2555/oj>
+
+**Authoritative for:** Il testo europeo della NIS2: settori, criteri dimensionali, misure di gestione del rischio (art. 21) e obblighi di notifica (art. 23). Utile per leggere il decreto italiano che la recepisce.
+
+## Garante per la protezione dei dati personali — provvedimenti, linee guida e FAQ
+
+Garante per la protezione dei dati personali · IT · **read and cite only — copyrighted, do not reproduce**
+
+<https://www.garanteprivacy.it/>
+
+**Authoritative for:** Come l'autorità italiana applica il GDPR nei casi concreti: cookie, videosorveglianza, rapporto di lavoro, telemarketing, amministratori di sistema. È dove la lettura del regolamento smette di bastare.
+
+## Garante — notifica di una violazione dei dati personali
+
+Garante per la protezione dei dati personali · IT · **read and cite only — copyrighted, do not reproduce**
+
+<https://www.garanteprivacy.it/regolamentoue/databreach>
+
+**Authoritative for:** Il canale e il modulo per notificare un data breach al Garante entro 72 ore (art. 33 GDPR), e quando va informato anche l'interessato (art. 34).
+
 ## MITRE ATT&CK
 
 The MITRE Corporation · global · free to use with attribution — credit the publisher
@@ -31,6 +71,14 @@ NIST · US · public domain (US government) — quote freely
 <https://csrc.nist.gov/pubs/sp/800/61/r3/final>
 
 **Authoritative for:** What an incident response capability must contain and what evidence must be captured at each stage. The current revision is a substantial rewrite that drops the older four-phase framing, so do not mix guidance across revisions.
+
+## Regolamento (UE) 2024/2847 — Cyber Resilience Act
+
+Publications Office of the European Union · EU · free to use with attribution — credit the publisher
+
+<https://eur-lex.europa.eu/eli/reg/2024/2847/oj>
+
+**Authoritative for:** Obblighi di chi mette sul mercato UE prodotti con elementi digitali, compresa la segnalazione delle vulnerabilità attivamente sfruttate.
 
 ---
 

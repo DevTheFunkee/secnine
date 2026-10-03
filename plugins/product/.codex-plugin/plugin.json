@@ -1,11 +1,12 @@
 {
   "name": "product",
-  "version": "1.0.0",
-  "description": "Product strategy, UX and usability audit, design systems, interface craft, brand expression, and visual direction.",
+  "version": "0.1.0",
+  "description": "Strategia di prodotto, audit UX e usabilit\u00e0, design system, cura dell'interfaccia, identit\u00e0 di marca e direzione visiva.",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "license": "MIT",
   "keywords": [
     "product",
@@ -19,7 +20,7 @@
     "displayName": "Product",
     "category": "Productivity",
     "shortDescription": "Product, as an installable department",
-    "longDescription": "Product strategy, UX and usability audit, design systems, interface craft, brand expression, and visual direction.",
-    "developerName": "Chris Brock"
+    "longDescription": "Strategia di prodotto, audit UX e usabilit\u00e0, design system, cura dell'interfaccia, identit\u00e0 di marca e direzione visiva.",
+    "developerName": "Bitlore"
   }
 }

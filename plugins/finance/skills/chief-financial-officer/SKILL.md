@@ -5,6 +5,12 @@ description: Owns the financial position: planning, budgeting, forecasting, unit
 
 # Chief Financial Officer
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Riferimenti IRS e FASB: in Italia OIC, Agenzia Entrate e calendario fiscale.
+> Per gli obblighi usa invece: OIC (fondazioneoic.eu); Agenzia delle Entrate; Codice civile artt. 2423 ss..
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Why this role exists
 
 The executive accountable for this function. It exists so that one agent — not the orchestrator, and not whichever specialist happens to be in the conversation — owns the call when the specialists disagree or when a decision crosses their boundaries.

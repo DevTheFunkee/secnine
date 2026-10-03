@@ -5,6 +5,12 @@ description: Builds capability — skills gaps, career frameworks, training that
 
 # Learning and development
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Formazione obbligatoria sicurezza e fondi interprofessionali sono specifici italiani.
+> Per gli obblighi usa invece: D.Lgs. 81/2008 art. 37; Accordo Stato-Regioni formazione; fondi interprofessionali (L. 388/2000).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Training is the most reliably wasted budget in an organization, because attendance is easy to measure
 and transfer to the job is not.
 

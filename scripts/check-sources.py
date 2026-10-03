@@ -104,7 +104,7 @@ def reachable(entries):
             if not url:
                 continue
             request = urllib.request.Request(url, method="GET", headers={
-                "User-Agent": "headcount-source-catalog/1.0 (+https://github.com/cbrock84/headcount)"
+                "User-Agent": "secnine-source-catalog/1.0 (+https://github.com/DevTheFunkee/secnine)"
             })
             try:
                 with urllib.request.urlopen(request, timeout=30) as response:
@@ -137,9 +137,11 @@ def pointers(entries):
                 for p in glob.glob("verticals/*/skills/*/*/SKILL.md")])
     for path, department, skill in sorted(every):
         ref = f"{department}:{skill}"
-        mentions = "\n## Sources\n" in open(path, encoding="utf-8").read()
+        # Skills localized for IT/EU are written in Italian and title the section `## Fonti`.
+        text = open(path, encoding="utf-8").read()
+        mentions = "\n## Sources\n" in text or "\n## Fonti\n" in text
         if ref in with_sources and not mentions:
-            problems.append(f"{path}: has catalog sources but no `## Sources` section — "
+            problems.append(f"{path}: has catalog sources but no `## Sources` / `## Fonti` section — "
                             f"the agent is never told the file exists")
         if mentions and ref not in with_sources:
             problems.append(f"{path}: has a `## Sources` section but nothing in the catalog "

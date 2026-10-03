@@ -1,11 +1,12 @@
 {
   "name": "pmo",
-  "description": "Enterprise program management office: portfolio governance, program and project delivery, dependencies and delivery risk, benefits realization, and adoption.",
-  "version": "1.0.0",
+  "description": "Gestione di progetti, programmi e portafoglio: pianificazione, rischi, dipendenze, stime e benefici.",
+  "version": "0.1.0",
   "author": {
-    "name": "Chris Brock"
+    "name": "Bitlore",
+    "url": "https://bitlore.it"
   },
-  "repository": "https://github.com/cbrock84/headcount",
+  "repository": "https://github.com/DevTheFunkee/secnine",
   "keywords": [
     "pmo",
     "portfolio",

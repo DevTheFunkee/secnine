@@ -31,8 +31,8 @@ run "Org chart is current" \
   python3 scripts/build-org-chart.py --check
 run "Skill references resolve" \
   python3 scripts/check-skill-refs.py
-run "US English spelling" \
-  python3 scripts/check-us-english.py
+run "IT/EU localization registry, review dates and official sources" \
+  python3 scripts/check-localization.py
 run "Never blocks are internally consistent" \
   python3 scripts/check-never-blocks.py
 run "OpenAI/Codex manifests are current" \

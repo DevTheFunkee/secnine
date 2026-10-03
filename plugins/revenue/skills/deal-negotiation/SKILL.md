@@ -5,6 +5,12 @@ description: Negotiates a commercial deal without giving away the terms that mat
 
 # Deal negotiation
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. UCC e ESIGN sono USA; contratti e firma secondo codice civile ed eIDAS.
+> Per gli obblighi usa invece: Codice civile artt. 1321 ss.; Reg. UE 910/2014 (eIDAS); D.Lgs. 82/2005 CAD.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Most deals are lost or discounted before the negotiation starts, in the preparation that did not
 happen. By the time you are trading, your position is largely fixed.
 

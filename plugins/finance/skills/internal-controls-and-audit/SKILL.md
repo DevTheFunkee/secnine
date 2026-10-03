@@ -5,6 +5,12 @@ description: Designs and tests controls over financial reporting — segregation
 
 # Internal controls and audit
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. SOX/PCAOB non si applicano; in Italia contano organo di controllo, revisione e modello 231.
+> Per gli obblighi usa invece: Codice civile art. 2477; D.Lgs. 39/2010; principi ISA Italia; D.Lgs. 231/2001.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Controls exist because a single person who can initiate, approve and record a transaction can also
 conceal one. Everything else is elaboration on that.
 

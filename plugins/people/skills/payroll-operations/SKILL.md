@@ -5,6 +5,12 @@ description: Runs the pay cycle so it is right, on time, and provable — the ca
 
 # Payroll operations
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Cedolino, contributi e conguagli sono interamente italiani.
+> Per gli obblighi usa invece: INPS; INAIL; TUIR; Certificazione Unica e modello 770 (Agenzia Entrate); LUL (D.L. 112/2008).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Payroll is the process with the least tolerance for error and the least visibility until it breaks.
 Nobody notices it working; everybody notices a late or wrong payment, and trust recovers slowly.
 

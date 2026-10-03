@@ -5,6 +5,12 @@ description: Audits and rewrites landing pages, homepages, and sales pages to in
 
 # Landing page CRO
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Claim, prezzi barrati e urgenza vanno letti con Codice del consumo e Omnibus, non con le guide FTC.
+> Per gli obblighi usa invece: D.Lgs. 206/2005 artt. 20-27 e 17-bis; Dir. UE 2019/2161 (Omnibus); linee guida cookie Garante.
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 ## Diagnose before rewriting
 
 A page converts when a visitor understands what this is, believes it will work for them, and has no

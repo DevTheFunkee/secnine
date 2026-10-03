@@ -5,6 +5,12 @@ description: Decides how the business is financed and what that financing then r
 
 # Capital structure and covenants
 
+<!-- eu-it: da-localizzare -->
+> **Edizione IT/UE: skill non ancora localizzata.** Il metodo vale ovunque, ma i riferimenti
+> normativi qui sotto sono statunitensi e non si applicano in Italia o nell'UE. Debito, finanziamento soci e covenant hanno regole civilistiche e di crisi d'impresa italiane.
+> Per gli obblighi usa invece: Codice civile art. 2467; D.Lgs. 14/2019; garanzie Fondo PMI (L. 662/1996).
+> Non è consulenza professionale: limiti d'uso in <https://github.com/DevTheFunkee/secnine/blob/main/DISCLAIMER.md>.
+
 Financing is not only where the money comes from. It is a set of ongoing constraints that will
 shape operating decisions for as long as the facility exists, and most of those constraints are
 discovered late.
